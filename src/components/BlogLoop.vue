@@ -1,8 +1,8 @@
 <template>
-  <div v-for="post in blogs" :key="post.id">
-    <a :href="`#${post.title}`">{{ post.title }}</a>
+  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id)">
+    <a>{{ post.title }}</a>
   </div>
-  <div v-for="post in blogs" :key="post.id">
+  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id)">
     <SingleBlog :post="post" />
   </div>
 </template>
@@ -11,6 +11,9 @@
 import { defineProps } from "vue";
 import SingleBlog from "./SingleBlog.vue";
 import type { Blog as BlogType } from "@/assets/types";
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 const props: { recipes: string } = defineProps({
   recipes: {
@@ -19,6 +22,10 @@ const props: { recipes: string } = defineProps({
   },
 });
 const blogs: BlogType[] = JSON.parse(props.recipes);
+
+const goToPost = ( id: string | number ) => {
+  router.push({ name: 'SingleBlog', params: { id } })
+}
 
 </script>
 

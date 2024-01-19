@@ -1,5 +1,5 @@
 <template>
-  <div class="blogtile" :id="props.post.title">
+  <div class="blogtile" :id="String(props.post.id)">
     <div class="titlesection">
       <div class="blog title">{{ props.post.title }}</div>
     </div>
@@ -11,17 +11,20 @@
     </div>
     <div class="instructions-section">
       <h4>Instructions</h4>
-      <div v-for="(instruction, index) in $props.post?.ingredients" :key="index" class="blog instructions">{{ instruction }}</div>
+      <div v-for="(instruction, index) in props.post.instructions" :key="index" class="blog instructions">{{ instruction }}</div>
     </div>
     <div class="notes-section">
       <h4>Notes</h4>
-      <div v-for="(note, index) in $props.post?.ingredients" :key="index" class="blog notes">{{ note }}</div>
+      <div v-for="(note, index) in props.post.notes" :key="index" class="blog notes">{{ note }}</div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { computed } from "vue";
 import type { Blog } from "@/assets/types"; 
+
+const computedId = computed(() => String(props.post.id));
 
 
 const props = defineProps({

@@ -3,5 +3,5 @@ export type Blog = {
   title: string;
   ingredients: string[];
   instructions: string[];
-  notes: string[];
+  notes?: string[];
 };
