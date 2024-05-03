@@ -62,5 +62,45 @@
         "notes": [
             "Increase number of chipotle peppers for passive heat in the meal. Alternatively you can add cayenne to the pork belly, just be cautious with it. I also tend to be licentious with the honey."
         ]
+    },
+    {
+        "id": 3,
+        "title": "Protein Pasta Lemon Chicken",
+        "ingredients": [
+            "8 oz (about 225 grams) of high-protein pasta (e.g., chickpea pasta, lentil pasta)",
+            "2 large chicken breasts",
+            "1 tablespoon olive oil",
+            "2 cloves garlic, minced",
+            "Zest and juice of 1 large lemon",
+            "1/4 cup low-sodium chicken broth",
+            "1/4 cup non-fat Greek yogurt",
+            "1/4 cup grated Parmesan cheese (optional, for extra flavor)",
+            "1/4 cup fresh parsley, chopped",
+            "Red pepper flakes (optional, for a spicy kick)",
+            "1 tablespoon paprika",
+            "1 teaspoon salt",
+            "1 teaspoon garlic powder",
+            "1 teaspoon onion powder",
+            "1 teaspoon ground black pepper",
+            "1/2 teaspoon cayenne pepper (adjust based on your heat preference)",
+            "1/2 teaspoon dried thyme",
+            "1/2 teaspoon dried oregano"
+        ],
+        "instructions": [
+            "1. Cook the Pasta: Bring a large pot of water to a boil. Add the pasta and cook according to package instructions until al dente. Drain and set aside.",
+            "2. Prepare the Chicken: While the pasta is cooking, heat the olive oil in a large skillet over medium-high heat. Season the chicken pieces with spices, then add to the skillet. Cook until golden and no longer pink in the center, about 5-7 minutes. Remove the chicken from the skillet and set aside.",
+            "3. Make the Sauce: In the same skillet, add a bit more olive oil if needed, and sauté the minced garlic until fragrant, about 1 minute. Add the lemon zest and juice, and chicken broth to deglaze the pan, scraping up any browned bits from the bottom.",
+            "4. Combine: Reduce heat to low. Stir in the Greek yogurt and Parmesan cheese until well combined and creamy. Add the cooked pasta and chicken back to the skillet, tossing to coat evenly with the sauce. Cook for another 2-3 minutes until everything is heated through.",
+            "5. Garnish and Serve: Remove from heat, toss with chopped parsley, and sprinkle with red pepper flakes if using. Serve immediately."
+        ],
+        "notes": [
+            "Blackening the chicken rather than cooking it normally really takes this up a notch, you don't have to blacken it but if you can it's well worth it."
+        ],
+        "nutrition": [
+            "Calories: 800 (pasta) + 800 (chicken) + 195 (yogurt) + 42 (cheese) = 1837 calories",
+            "Protein: 56 (pasta) + 150 (chicken) + 34.5 (yogurt) + 3.8 (cheese) = 244.3 grams",
+            "Carbs: 128 (pasta) + 0 (chicken) + 13.5 (yogurt) + 0.4 (cheese) = 141.9 grams",
+            "Fat: 14 (pasta) + 17 (chicken) + 0 (yogurt) + 2.8 (cheese) = 33.8 grams"
+        ]
     }
 ]
