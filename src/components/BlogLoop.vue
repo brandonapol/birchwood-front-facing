@@ -1,8 +1,8 @@
 <template>
-  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id)">
+  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id, post.title)">
     <a>{{ post.title }}</a>
   </div>
-  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id)">
+  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id, post.title)">
     <SingleBlog :post="post" />
   </div>
 </template>
@@ -23,8 +23,8 @@ const props: { recipes: string } = defineProps({
 });
 const blogs: BlogType[] = JSON.parse(props.recipes);
 
-const goToPost = ( id: string | number ) => {
-  router.push({ name: 'SingleBlog', params: { id } })
+const goToPost = ( id: string | number, title: string ) => {
+  router.push({ name: 'SingleBlog', params: { title } })
 }
 
 </script>
