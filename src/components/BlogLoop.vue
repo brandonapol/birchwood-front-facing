@@ -1,29 +1,26 @@
 <template>
-  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id, post.title)">
+  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.title)">
     <a>{{ post.title }}</a>
   </div>
-  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.id, post.title)">
+  <div v-for="post in blogs" :key="post.id" @click="goToPost(post.title)">
     <SingleBlog :post="post" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { defineProps } from "vue";
 import SingleBlog from "./SingleBlog.vue";
 import type { Blog as BlogType } from "@/assets/types";
 import { useRouter } from 'vue-router';
+import { ref, computed } from 'vue';
+import type { Ref, ComputedRef } from 'vue';
+import recipes from './../assets/data/recipes.json'
+
+const myRecipes: Ref<BlogType[]> = ref(recipes)
+const recipesAsJson: ComputedRef<string> = computed(() => JSON.stringify(myRecipes.value));
+const blogs: BlogType[] = JSON.parse(String(recipesAsJson.value));
 
 const router = useRouter();
-
-const props: { recipes: string } = defineProps({
-  recipes: {
-    type: String,
-    default: "[]",
-  },
-});
-const blogs: BlogType[] = JSON.parse(props.recipes);
-
-const goToPost = ( id: string | number, title: string ) => {
+const goToPost = ( title: string ) => {
   router.push({ name: 'SingleBlog', params: { title } })
 }
 

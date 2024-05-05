@@ -1,6 +1,6 @@
 <template>
   <main>
-    <BlogLoop :recipes="recipesAsJson" />
+    <BlogLoop />
   </main>
 </template>
 
