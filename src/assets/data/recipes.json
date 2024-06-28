@@ -102,5 +102,27 @@
             "Carbs: 128 (pasta) + 0 (chicken) + 13.5 (yogurt) + 0.4 (cheese) = 141.9 grams",
             "Fat: 14 (pasta) + 17 (chicken) + 0 (yogurt) + 2.8 (cheese) = 33.8 grams"
         ]
+    },
+    {
+        "id": 4,
+        "title": "Britling's Macaroni and Cheese",
+        "ingredients": [
+            "1 1/2 cups elbow noodles",
+            "12 oz sharp cheddar cheese, grated",
+            "3 eggs, beaten",
+            "1 1/2 cups milk",
+            "1/2 stick butter",
+            "1/2 tbsp pepper",
+            "salt to taste"
+        ],
+        "instructions": [
+            "1. Cook elbow and drain",
+            "2. Add all non-egg ingredients; stir",
+            "3. Add eggs last to avoid scrambling them",
+            "4. Pour into greased 9x9 casserole dish",
+            "Bake uncovered at 375-400 approximately 30 minutes or until middle is set"
+        ],
+        "notes": "'It goes hard trust me' - Hunter W",
+        "nutrition": ""
     }
 ]
