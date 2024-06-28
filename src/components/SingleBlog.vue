@@ -1,38 +1,37 @@
 <template>
-  <div class="blogtile" :id="String(props.post.id)">
+  <div class="blogtile" :id="String(post.id)" v-bind="attrs">
     <div class="titlesection">
-      <div class="title">{{ props.post.title }}</div>
+      <div class="title">{{ post.title }}</div>
     </div>
     <div class="ingredients-section">
       <h4>Ingredients</h4>
-      <div v-for="(ingredient, index) in props.post.ingredients" :key="index" class="ingredient">
+      <div v-for="(ingredient, index) in post.ingredients" :key="index" class="ingredient">
           {{ ingredient }}
       </div>
     </div>
     <div class="instructions-section">
       <h4>Instructions</h4>
-      <div v-for="(instruction, index) in props.post.instructions" :key="index" class="instructions">{{ instruction }}</div>
+      <div v-for="(instruction, index) in post.instructions" :key="index" class="instructions">{{ instruction }}</div>
     </div>
     <div class="notes-section">
       <h4>Notes</h4>
-      <div v-for="(note, index) in props.post.notes" :key="index" class="notes">{{ note }}</div>
+      <div v-for="(note, index) in post.notes" :key="index" class="notes">{{ note }}</div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { type PropType } from "vue";
+import { type PropType, useAttrs } from "vue";
 import type { Blog } from "@/assets/types"; 
 
-
-
-
-const props = defineProps({
+const props: { readonly post: Blog } = defineProps({
   post: {
     type: Object as PropType<Blog>,
     required: true
   },
 });
+
+const attrs = useAttrs();
 </script>
 
 <style scoped>
