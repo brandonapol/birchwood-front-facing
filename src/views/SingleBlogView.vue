@@ -25,7 +25,8 @@
         "id": 3,
         "title": "Default Title",
         "ingredients": [],
-        "instructions": []
+        "instructions": [],
+        "notes": []
     }
   }
 });
