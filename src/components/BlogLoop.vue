@@ -9,8 +9,8 @@
 
 <script setup lang="ts">
 import SingleBlog from "./SingleBlog.vue";
-import type { Blog as BlogType } from "@/assets/types";
-import { useRouter } from 'vue-router';
+import type { Blog as BlogType } from "../assets/types";
+import { useRouter } from "vue-router";
 
 const router = useRouter();
 
@@ -22,16 +22,13 @@ const props: { recipes: string } = defineProps({
 });
 const blogs: BlogType[] = JSON.parse(props.recipes);
 
-const goToPost = ( id: string | number ) => {
-  router.push({ name: 'SingleBlog', params: { id } })
-}
-
+const goToPost = (id: string | number) => {
+  router.push({ name: "SingleBlog", params: { id } });
+};
 </script>
 
 <style scoped>
-
 a {
   color: white;
 }
-
 </style>
