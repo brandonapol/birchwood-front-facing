@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <p class="content">
-      Couldn't find this page. Sorry! Try going back to the homepage and
-      navigating from there.
-    </p>
-
-    <a href="/" class="text-blue-500 underline">Back home</a>
-  </div>
-</template>
-
-<style>
-.content {
-  color: antiquewhite;
-}
-</style>
+    <div class="center">
+      <div class="page-info">
+          <h1 class="header">404</h1>
+          <p class="content">
+            Couldn't find this page. Sorry! Try going back to the homepage and
+            navigating from there.
+          </p>
+          <a class="button" href="/">Back home</a>
+      </div>
+    </div>
+  </template>
+  
+  <style>
+  
+  </style>

@@ -51,14 +51,6 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.blogtile {
-  color: black;
-  background-color: rgb(201, 204, 206);
-  margin: 10px 0px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-}
 
 .title {
   font-size: larger;
@@ -84,5 +76,11 @@ const props = defineProps({
 .notes-section {
   padding: 5px 0px;
   margin: 5px 0px;
+}
+
+.blogtile {
+  margin: 3% 0%;
+  border-top: 5px solid #061E23;
+  padding-top: 3%;
 }
 </style>

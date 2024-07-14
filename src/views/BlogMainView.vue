@@ -1,6 +1,8 @@
 <template>
   <main>
-    <BlogLoop :recipes="recipesAsJson" />
+    <div class="container">
+      <BlogLoop :recipes="recipesAsJson" />
+    </div>
   </main>
 </template>
 
@@ -16,3 +18,12 @@ const recipesAsJson: ComputedRef<string> = computed(() =>
   JSON.stringify(myRecipes.value)
 );
 </script>
+
+<style>
+.container {
+  padding: 0% 10%;
+  margin: 5% 10%;
+  padding: 5%;
+  background-color: #CACAAA;
+}
+</style>

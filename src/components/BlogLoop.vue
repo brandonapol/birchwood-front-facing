@@ -28,7 +28,5 @@ const goToPost = (id: string | number) => {
 </script>
 
 <style scoped>
-a {
-  color: white;
-}
+
 </style>
