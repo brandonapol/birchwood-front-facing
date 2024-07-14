@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import BlogMainView from "../views/BlogMainView.vue";
 import HomeView from "../views/HomeView.vue";
-import SingleBlogView from "../views/SingleBlogView.vue";
 import NotFoundView from "../views/NotFoundView.vue";
 
 const router = createRouter({
