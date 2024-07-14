@@ -8,7 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from "vue";
 import SingleBlog from "./SingleBlog.vue";
 import type { Blog as BlogType } from "@/assets/types";
 import { useRouter } from 'vue-router';

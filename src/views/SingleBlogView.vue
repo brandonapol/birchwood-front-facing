@@ -7,7 +7,7 @@
   import { useRoute } from 'vue-router';
   import SingleBlog from '@/components/SingleBlog.vue';
   import type { Blog } from "@/assets/types"; 
-  import recipes from './../assets/data/recipes.json';
+  import recipes from '@/assets/data/recipes';
   
   const route = useRoute();
   const blogPost = ref<Blog>();
@@ -26,7 +26,8 @@
         "title": "Default Title",
         "ingredients": [],
         "instructions": [],
-        "notes": []
+        "notes": [],
+        "nutrition" : []
     }
   }
 });

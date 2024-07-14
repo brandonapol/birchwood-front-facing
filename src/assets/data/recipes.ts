@@ -1,4 +1,6 @@
-[
+import type { Blog } from "../types"
+
+const recipes: Blog[] = [
     {
         "id": 1,
         "title": "Smoky Chorizo and Red Bean Ragout",
@@ -31,7 +33,8 @@
         ],
         "notes": [
             "Basically anything red and savory will go in here well - Lentils. Also, butterbean alternatives include chickpeas and Great Northern beans, which are easier to get a hold of. "
-        ]
+        ],
+        "nutrition": []
     },
     {
         "id": 2,
@@ -61,7 +64,8 @@
         ],
         "notes": [
             "Increase number of chipotle peppers for passive heat in the meal. Alternatively you can add cayenne to the pork belly, just be cautious with it. I also tend to be licentious with the honey."
-        ]
+        ],
+        "nutrition": []
     },
     {
         "id": 3,
@@ -122,7 +126,9 @@
             "4. Pour into greased 9x9 casserole dish",
             "Bake uncovered at 375-400 approximately 30 minutes or until middle is set"
         ],
-        "notes": "'It goes hard trust me' - Hunter W",
-        "nutrition": ""
+        "notes": [ "\"It goes hard trust me\" - Hunter W" ],
+        "nutrition": []
     }
 ]
+
+export default recipes;
