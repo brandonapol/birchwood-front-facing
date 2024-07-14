@@ -1,5 +1,7 @@
 <template>
-  <SingleBlog v-if="blogPost" :post="blogPost" />
+  <div class="container">
+    <SingleBlog v-if="blogPost" :post="blogPost" />
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -14,9 +16,7 @@ const blogPost = ref<Blog>();
 
 onMounted(() => {
   const postId = route.params.id;
-  // Assuming the id in your recipes is a number, parse the postId from the route params
   const numericPostId = Number(postId);
-  // Find the blog post that matches the id from the route params
   const foundPost = recipes.find((r) => r.id === numericPostId);
   if (foundPost) {
     blogPost.value = foundPost as Blog;
@@ -34,5 +34,10 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* { id: string | number; title: string; ingredients: string[]; instructions: string[]; notes?: string[] | undefined; } | null */
+.container {
+  padding: 0% 10%;
+  margin: 5% 10%;
+  padding: 5%;
+  background-color: #CACAAA;
+}
 </style>
