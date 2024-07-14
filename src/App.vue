@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
   <header>
-
     <div class="navbar">
-      <div class="name nav-tabs">
-        What's Brandon Eating
-      </div>
+      <div class="name nav-tabs">What's Brandon Eating</div>
       <div class="nav-tabs">
         <RouterLink class="navbar-item" :to="'/'">Home</RouterLink>
         <RouterLink class="navbar-item" :to="'/blog'">Blog</RouterLink>
@@ -22,18 +19,18 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style>
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #291d1a; 
+  background-color: #291d1a;
 }
 
 .header {
-  background-color: #87a0b2; 
+  background-color: #87a0b2;
 }
 
 .navbar {
@@ -42,7 +39,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #87a0b2; 
+  background-color: #87a0b2;
 }
 
 .space {
@@ -57,7 +54,7 @@ body {
 .navbar-item {
   padding: 5px 10px;
   margin: 0 5px;
-  background-color: #87a0b2; 
+  background-color: #87a0b2;
   border: 1px solid black;
   border-radius: 5px;
   text-decoration: none;
@@ -90,4 +87,3 @@ body {
   }
 }
 </style>
-

@@ -1,15 +1,11 @@
 <template>
-    <div class="content">
-        yee haw
-    </div>
+  <div class="content">yee haw</div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
-    .content {
-        color: antiquewhite;
-    }
+.content {
+  color: antiquewhite;
+}
 </style>
