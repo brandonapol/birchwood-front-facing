@@ -133,7 +133,40 @@ const recipes: Blog[] = [
         ],
         "notes": [ "\"It goes hard trust me\" - Hunter W" ],
         "nutrition": []
+    },
+    {
+        "id": gen_id(),
+        "title": "Polish Tacos",
+        "ingredients": [
+            "Kielbasa: 1 lb, sliced into bite-sized pieces",
+            "Sauerkraut: 1 cup, drained and rinsed",
+            "Pierogi: 6-8 pieces, choose your favorite filling",
+            "Taco Shells: 6-8 hard or soft, based on preference",
+            "Onion: 1 large, thinly sliced",
+            "Cheddar Cheese: 1 cup, shredded (optional for topping)",
+            "Sour Cream: For topping",
+            "Mustard: 1 tablespoon, whole grain, for dressing",
+            "Apple Cider Vinegar: 2 tablespoons, for dressing",
+            "Olive Oil: 1 tablespoon, for cooking",
+            "Salt and Pepper: To taste",
+            "Fresh Dill: For garnish",
+            ],
+        "instructions": [
+            "1. Prepare the Pierogi and Kielbasa: In a skillet, heat olive oil over medium heat. Add the sliced kielbasa and cook until browned and crispy, about 5-7 minutes. Remove and set aside. In the same skillet, add pierogi (if they're frozen, thaw them first). Cook according to package instructions or until they're golden on both sides. Set aside with the kielbasa.",
+            "2. Sauté Onions and Sauerkraut: In the same skillet, add a bit more oil if needed and toss in the onions. Sauté until they start to become translucent. Add the sauerkraut to the skillet with the onions, stirring occasionally, until it's heated through and begins to caramelize slightly. Add apple cider vinegar, salt, and pepper to taste.",
+            "3. Assemble the Tacos: Warm your taco shells as per the package's instructions to make them pliable and toasty. Start with a layer of sauerkraut and onions, followed by slices of kielbasa and a pierogi in each taco shell. Top with shredded cheddar cheese (if using), a dollop of sour cream, and a drizzle of whole grain mustard.",
+            "4. Garnish and Serve: Sprinkle each taco with fresh dill for a burst of color and freshness. Serve immediately, letting each bite take you on a delicious journey through Polish flavors wrapped in the convenience of a taco."
+            ],
+        "notes": [],
+        "nutrition": []
     }
 ]
 
 export default recipes;
+
+// "id": gen_id(),
+// "title": "",
+// "ingredients": [],
+// "instructions": [],
+// "notes": [],
+// "nutrition": []
