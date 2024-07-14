@@ -1,40 +1,18 @@
-# fake-birchwood
+# Fake Birchwood
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository is the code for my recipe website. I mostly use it for the opportunity 
+to play around with CICD and domain stuff. I also use it when I forget what I was doing in the middle of 
+the grocery store, and to send friends recipes I use. The food here is pretty good. 
 
-## Recommended IDE Setup
+I call it Birchwood because I lived in a birch wood for several years and really fell in love with it.
+Originally this was a series of microservices (see [Birchwood](https://github.com/brandonapol/Birchwood)), but I didn't
+feel like paying for an EKS cluster after I finished standing it up. Since birch trees are a colony organism 
+(what we see as 'trees' are the above-ground portions of a larger entity connected by roots) it made sense 
+both for the Birch woods to reflect who I am as well as a natural representation of microservices connected 
+by a service mesh. But I wanted something cheap and automatic and to figure out the hackiest way possible to 
+basically do the same thing, so here we are.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Enjoy!
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+https://birchwood.lol
