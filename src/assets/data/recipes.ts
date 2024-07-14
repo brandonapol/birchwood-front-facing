@@ -1,8 +1,13 @@
 import type { Blog } from "../types"
+let iterator: number = 0
+
+const gen_id = (): number => {
+    return iterator++
+}
 
 const recipes: Blog[] = [
     {
-        "id": 1,
+        "id": gen_id(),
         "title": "Smoky Chorizo and Red Bean Ragout",
         "ingredients": [
             "1 Chorizo Sausage",
@@ -37,7 +42,7 @@ const recipes: Blog[] = [
         "nutrition": []
     },
     {
-        "id": 2,
+        "id": gen_id(),
         "title": "Pork Belly Tacos",
         "ingredients": [
             "1 lb Pork Belly",
@@ -68,7 +73,7 @@ const recipes: Blog[] = [
         "nutrition": []
     },
     {
-        "id": 3,
+        "id": gen_id(),
         "title": "Protein Pasta Lemon Chicken",
         "ingredients": [
             "8 oz (about 225 grams) of high-protein pasta (e.g., chickpea pasta, lentil pasta)",
@@ -108,7 +113,7 @@ const recipes: Blog[] = [
         ]
     },
     {
-        "id": 4,
+        "id": gen_id(),
         "title": "Britling's Macaroni and Cheese",
         "ingredients": [
             "1 1/2 cups elbow noodles",
