@@ -37,4 +37,21 @@
 .body-text {
     padding: 0% 2%;
 }
+
+@media (max-width: 768px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex-direction: column;
+    margin: 5%;
+    padding: 5%;
+  }
+
+  .body-text {
+    padding: 0%;
+  }
+}
 </style>
