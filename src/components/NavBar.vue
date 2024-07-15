@@ -18,10 +18,11 @@ import { RouterLink } from "vue-router";
 <style scoped>
 .navbar {
   margin: 1% 10%;
+  border-bottom: 2px solid #635c50;
 }
 
 .header {
-  background-color: #061E23; 
+  background-color: #000000; 
   padding: 1% 10%;
 }
 
@@ -31,7 +32,7 @@ import { RouterLink } from "vue-router";
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #061E23; 
+  background-color: #000000; 
 }
 
 .space {
@@ -46,7 +47,7 @@ import { RouterLink } from "vue-router";
 .navbar-item {
   padding: 5px 10px;
   margin: 0 5px;
-  background-color: #061E23; 
+  background-color: #000000; 
   border: 1px solid black;
   border-radius: 5px;
   text-decoration: none;
@@ -54,7 +55,7 @@ import { RouterLink } from "vue-router";
 }
 
 .navbar-item:hover {
-  background-color: #CACAAA; /* Dark brown for hover effect */
+  background-color: #635c50; /* Dark brown for hover effect */
 }
 
 .name {
