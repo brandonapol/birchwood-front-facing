@@ -1,14 +1,14 @@
 <template>
   <div class="content">
     <div class="center">
-      <p>
+      <p class="body-text">
           This repository is the code for my recipe website. I mostly use it for the
           opportunity to play around with CICD and domain stuff. I also use it when
           I forget what I was doing in the middle of the grocery store, and to send
           friends recipes I use. The food here is pretty good. I call it Birchwood
           because I lived in a birch wood for several years and really fell in love
           with it. Originally this was a series of microservices (see <a href="https://github.com/brandonapol/Birchwood">Birchwood</a>), but I didn't feel
-          like paying for an EKS cluster after I finished standing it up. Since
+          </p><p class="body-text">like paying for an EKS cluster after I finished standing it up. Since
           birch trees are a colony organism (what we see as 'trees' are the
           above-ground portions of a larger entity connected by roots) it made sense
           both for the Birch woods to reflect who I am as well as a natural
@@ -30,6 +30,11 @@
 .content {
   margin: 5% 10%;
   padding: 5%;
-  background-color: #CACAAA;
+  background-color: #635c50;
+  display: flex;
+}
+
+.body-text {
+    padding: 0% 2%;
 }
 </style>

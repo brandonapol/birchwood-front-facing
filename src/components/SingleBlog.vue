@@ -80,7 +80,7 @@ const props = defineProps({
 
 .blogtile {
   margin: 3% 0%;
-  border-top: 5px solid #061E23;
+  border-top: 5px solid #000000;
   padding-top: 3%;
 }
 </style>

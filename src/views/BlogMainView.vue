@@ -24,6 +24,6 @@ const recipesAsJson: ComputedRef<string> = computed(() =>
   padding: 0% 10%;
   margin: 5% 10%;
   padding: 5%;
-  background-color: #CACAAA;
+  background-color: #635c50;
 }
 </style>
