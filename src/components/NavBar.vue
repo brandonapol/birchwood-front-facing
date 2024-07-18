@@ -18,7 +18,7 @@ import { RouterLink } from "vue-router";
 <style scoped>
 .navbar {
   margin: 1% 10%;
-  border-bottom: 2px solid #635c50;
+  border-bottom: 2px solid #B1B195;
 }
 
 .header {
@@ -55,7 +55,7 @@ import { RouterLink } from "vue-router";
 }
 
 .navbar-item:hover {
-  background-color: #635c50; /* Dark brown for hover effect */
+  background-color: #B1B195; /* Dark brown for hover effect */
 }
 
 .name {

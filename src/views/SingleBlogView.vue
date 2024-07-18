@@ -38,6 +38,6 @@ onMounted(() => {
   padding: 0% 10%;
   margin: 5% 10%;
   padding: 5%;
-  background-color: #635c50;
+  background-color: #B1B195;
 }
 </style>
