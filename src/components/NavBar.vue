@@ -4,7 +4,7 @@
       <div class="name nav-tabs">What's Brandon Eating</div>
       <div class="nav-tabs">
         <RouterLink class="navbar-item" :to="'/'">Home</RouterLink>
-        <RouterLink class="navbar-item" :to="'/blog'">Blog</RouterLink>
+        <RouterLink class="navbar-item" :to="'/recipes'">Recipes</RouterLink>
       </div>
     </div>
   </header>
@@ -19,20 +19,17 @@ import { RouterLink } from "vue-router";
 .navbar {
   margin: 1% 10%;
   border-bottom: 2px solid #B1B195;
-}
-
-.header {
-  background-color: #000000; 
-  padding: 1% 10%;
-}
-
-.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   background-color: #000000; 
+}
+
+.header {
+  background-color: #000000; 
+  padding: 1% 10%;
 }
 
 .space {

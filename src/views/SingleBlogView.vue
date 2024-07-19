@@ -15,9 +15,9 @@ const route = useRoute();
 const blogPost = ref<Blog>();
 
 onMounted(() => {
-  const postId = route.params.id;
-  const numericPostId = Number(postId);
-  const foundPost = recipes.find((r) => r.id === numericPostId);
+  const postTitle = route.params.title;
+  const numericPostTitle: string = String(postTitle);
+  const foundPost = recipes.find((r) => r.title === numericPostTitle);
   if (foundPost) {
     blogPost.value = foundPost as Blog;
   } else {
@@ -35,9 +35,8 @@ onMounted(() => {
 
 <style scoped>
 .container {
-  padding: 0% 10%;
+  padding: 5% 10%;
   margin: 5% 10%;
-  padding: 5%;
   background-color: #B1B195;
 }
 </style>
