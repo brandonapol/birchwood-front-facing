@@ -12,12 +12,12 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/blog",
+      path: "/recipes",
       name: "BlogLoop",
       component: BlogMainView,
     },
     {
-      path: "/blog/:id",
+      path: "/recipes/:title",
       name: "SingleBlog",
       component: (): Promise<any> => import("../views/SingleBlogView.vue"),
       props: true,
