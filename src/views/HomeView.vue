@@ -22,41 +22,50 @@
       </p>
     </div>
     <div class="image">
-      <img :src="getSeason()" alt="Birch wood forest" />
+      <img :src="imageSrc" alt="Birch wood forest" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const monthToImageName = (month_num: number): string => {
+import { onMounted, ref } from "vue"
+import type { Ref } from "vue";
+
+const monthToImageName = (month_num: number): Promise<any> => {
   switch (month_num) {
     case 0:
     case 1:
     case 11:
-      return "snow_birch.jpeg";
+      return import("@/assets/images/snow_birch.jpeg");
     case 2:
     case 3:
     case 4:
-      return "birch_stack.jpeg";
+      return import("@/assets/images/birch_stack.jpeg");
     case 5:
     case 6:
     case 7:
-      return "summer_sun_birch.jpeg";
+      return import("../assets/images/summer_sun_birch.jpeg");
     case 8:
     case 9:
     case 10:
-      return "fall_birch_2.jpeg";
+      return import("@/assets/images/fall_birch_2.jpeg");
     default:
-      return "birch_stack.jpeg";
+      return import("@/assets/images/birch_stack.jpeg");
   }
 };
 
-const getSeason = (): string => {
+const imageSrc: Ref<string> = ref<string>("");
+
+const getSeason = async (): Promise<any> => {
   const currentDate = new Date();
   const month = currentDate.getMonth();
-  const image_name = monthToImageName(month)
-  return `/src/assets/images/${image_name}`
+  const image_name = await monthToImageName(month)
+  imageSrc.value = image_name.default;
+  console.log(imageSrc.value)
 };
+onMounted(() => {
+  getSeason();
+})
 </script>
 
 <style scoped>
