@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import NavBar from './components/NavBar.vue'
   </div>
 
   <RouterView />
+  <Footer />
 </template>
 
 <style>
@@ -24,11 +26,6 @@ import NavBar from './components/NavBar.vue'
 body {
   background-color: #000000; 
 }
-
-.navbar-wrapper {
-
-}
-
 
 </style>
 
