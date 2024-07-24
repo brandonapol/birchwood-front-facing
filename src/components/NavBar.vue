@@ -44,7 +44,6 @@ import { RouterLink } from "vue-router";
   background-color: #000000; 
   border: 1px solid black;
   border-radius: 5px;
-  text-decoration: none;
   color: white;
 }
 
