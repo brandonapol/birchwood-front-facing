@@ -39,7 +39,12 @@ const recipes: Blog[] = [
     notes: [
       "Basically anything red and savory will go in here well - Lentils. Also, butterbean alternatives include chickpeas and Great Northern beans, which are easier to get a hold of. ",
     ],
-    nutrition: [],
+    nutrition: [
+      "Calories: 425",
+      "Protein: 15.85g",
+      "Carbs: 39g",
+      "Fat: 23g",
+    ],
   },
   {
     id: gen_id(),
@@ -70,7 +75,12 @@ const recipes: Blog[] = [
     notes: [
       "Increase number of chipotle peppers for passive heat in the meal. Alternatively you can add cayenne to the pork belly, just be cautious with it. I also tend to be licentious with the honey.",
     ],
-    nutrition: [],
+    nutrition: [
+      "Calories: 788",
+      "Protein: 19g",
+      "Carbs: 49g",
+      "Fat: 56g",
+    ],
   },
   {
     id: gen_id(),
@@ -132,7 +142,12 @@ const recipes: Blog[] = [
       "Bake uncovered at 375-400 approximately 30 minutes or until middle is set",
     ],
     notes: ['"It goes hard trust me" - Hunter W'],
-    nutrition: [],
+    nutrition: [
+      "Calories: 410",
+      "Protein: 21g",
+      "Carbs: 14g",
+      "Fat: 30g"
+    ],
   },
   {
     id: gen_id(),
@@ -158,7 +173,40 @@ const recipes: Blog[] = [
       "4. Garnish and Serve: Sprinkle each taco with fresh dill for a burst of color and freshness. Serve immediately, letting each bite take you on a delicious journey through Polish flavors wrapped in the convenience of a taco.",
     ],
     notes: [],
-    nutrition: [],
+    nutrition: [
+      "Calories: 609",
+      "Protein: 20g",
+      "Carbs: 225g",
+      "Fat: 253g"
+    ],
+  },
+  {
+    id: gen_id(),
+    title: "Chipotle Chicken Bowl",
+    ingredients: [
+      "2 lbs boneless skinless chicken breasts",
+      "2 cloves minced garlic",
+      "2 tablespoons adobo sauce and optional chopped chipotle peppers",
+      "1 tbsp chili powder",
+      "1 teaspoon cumin",
+      "1/2 teaspoon oregano",
+      "1 teaspoon salt",
+      "1/2 teaspoon black pepper",
+      "Cayenne to taste"
+    ],
+    instructions: [
+      "1. Cut chicken into bite-size cubes.", 
+      "2. Combine chicken, garlic, olive oil, adobo sauce, and seasoning in a large bowl. Cover and let sit for 30 min to two days.",
+      "3. Preheat oil in a large pan over medium-high heat. Add chicken to pan and cook.",
+      "4. Remove chicken and serve with cheese, lettuce, black beans, fajita vegetables, and rice."
+    ],
+    notes: [],
+    nutrition: [
+      "Calories: 267",
+      "Protein: 41g",
+      "Carbs: 4g",
+      "Fat: 6g"
+    ],
   },
 ];
 
