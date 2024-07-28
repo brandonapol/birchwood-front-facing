@@ -1,5 +1,6 @@
 <template>
   <div class="border-bottom">
+    <h2 class="center">All Recipes</h2>
     <div v-for="post in blogs" class="nav-tabs" :key="post.id" @click="goToPost(post.title)">
       <a>{{ post.title }}</a>
     </div>
@@ -30,6 +31,14 @@ const goToPost = (title: string | number) => {
 </script>
 
 <style>
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 700;
+}
+
 .border-bottom {
   padding-bottom: 3%;
   border-bottom: 5px solid #000000;
@@ -38,9 +47,11 @@ const goToPost = (title: string | number) => {
 .nav-tabs {
   padding: 0% 3% 0% 3%;
   border-radius: 5px;
+  transition: background-color 0.2s ease;
 }
 
 .nav-tabs:hover {
   background-color: #909079;
+  cursor: pointer;
 }
 </style>

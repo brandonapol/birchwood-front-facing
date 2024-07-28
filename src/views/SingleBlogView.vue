@@ -55,13 +55,13 @@ onMounted(() => {
 .back-button {
   display: flex;
   padding: 5px 10px;
-  margin: 0 5px;
   background-color: #000000; 
   border: 1px solid black;
   border-radius: 5px;
   color: white;
   justify-content: center;
   transition: background-color 0.2s ease;
+  margin: 3%;
 }
 
 .back-button:hover {

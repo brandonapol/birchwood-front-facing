@@ -47,6 +47,10 @@ import { RouterLink } from "vue-router";
   color: white;
 }
 
+.nav-tabs:hover {
+  background-color: #000000;
+}
+
 .navbar-item {
   padding: 5px 10px;
   margin: 0 5px;
