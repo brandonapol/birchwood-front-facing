@@ -91,6 +91,8 @@ onMounted(() => {
 
 .body-text {
   padding: 0% 2%;
+  font-size: medium;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {

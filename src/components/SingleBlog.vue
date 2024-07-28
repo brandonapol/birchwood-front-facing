@@ -23,7 +23,7 @@
         {{ instruction }}
       </div>
     </div>
-    <div class="notes-section">
+    <div v-if="hasNotes" class="notes-section">
       <h4>Notes</h4>
       <div
         v-for="(note, index) in props.post.notes"
@@ -31,6 +31,16 @@
         class="blog notes"
       >
         {{ note }}
+      </div>
+    </div>
+    <div v-if="hasMacros" class="macros-section">
+      <h4>Macros</h4>
+      <div
+        v-for="(macro, index) in props.post.nutrition"
+        :key="index"
+        class="blog notes"
+      >
+        {{ macro }}
       </div>
     </div>
   </div>
@@ -52,6 +62,10 @@ const props = defineProps({
     default: false
   }
 });
+
+const hasNotes = props.post.notes[0] !== undefined;
+const hasMacros = props.post.ingredients[0] !== undefined
+
 </script>
 
 <style scoped>
