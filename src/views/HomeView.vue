@@ -2,8 +2,8 @@
   <div class="content">
     <div class="center">
       <p class="body-text">
-        This repository is the code for my recipe website. I mostly use it for
-        the opportunity to play around with CICD and domain stuff. I also use it
+        This is my recipe website. I mostly use it for
+        the opportunity to play around with front-end, CICD and domain stuff. I also use it
         when I forget what I was doing in the middle of the grocery store, and
         to send friends recipes I use. The food here is pretty good. I call it
         Birchwood because I lived in a birch wood for several years and really
