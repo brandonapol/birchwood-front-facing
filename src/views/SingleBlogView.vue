@@ -5,7 +5,7 @@
           Back to all recipes
       </RouterLink>
     </div>
-    <SingleBlog v-if="blogPost" :post="blogPost" />
+    <SingleBlog v-if="blogPost" :isSingleView="isSingleView" :post="blogPost" />
   </div>
 </template>
 
@@ -18,6 +18,8 @@ import recipes from "../assets/data/recipes";
 
 const route = useRoute();
 const blogPost = ref<Blog>();
+
+const isSingleView = true
 
 onMounted(() => {
   const postTitle = route.params.title;

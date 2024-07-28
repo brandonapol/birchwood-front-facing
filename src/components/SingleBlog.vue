@@ -1,5 +1,5 @@
 <template>
-  <div class="blogtile" :id="String(props.post.id)">
+  <div class="blogtile" :class="{ 'single-page-class': !props.isSingleView }" :id="String(props.post.id)">
     <div class="titlesection">
       <div class="blog title">{{ props.post.title }}</div>
     </div>
@@ -47,6 +47,10 @@ const props = defineProps({
     type: Object as () => Blog,
     default: () => {},
   },
+  isSingleView: {
+    type: Boolean,
+    default: false
+  }
 });
 </script>
 
@@ -81,7 +85,12 @@ const props = defineProps({
 .blogtile {
   margin: 3% 0%;
   border-bottom: 5px solid #000000;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  border-radius: 5px 5px 0px 0px;
+  padding: 3%;
+  transition: background-color 0.2s ease;
+}
+
+.single-page-class:hover {
+  background-color: #909079;
 }
 </style>

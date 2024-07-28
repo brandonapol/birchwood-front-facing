@@ -61,7 +61,6 @@ const getSeason = async (): Promise<any> => {
   const month = currentDate.getMonth();
   const image_name = await monthToImageName(month)
   imageSrc.value = image_name.default;
-  console.log(imageSrc.value)
 };
 onMounted(() => {
   getSeason();
