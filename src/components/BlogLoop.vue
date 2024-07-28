@@ -1,6 +1,6 @@
 <template>
   <div class="border-bottom">
-    <div v-for="post in blogs" :key="post.id" @click="goToPost(post.title)">
+    <div v-for="post in blogs" class="nav-tabs" :key="post.id" @click="goToPost(post.title)">
       <a>{{ post.title }}</a>
     </div>
   </div>
@@ -33,5 +33,14 @@ const goToPost = (title: string | number) => {
 .border-bottom {
   padding-bottom: 3%;
   border-bottom: 5px solid #000000;
+}
+
+.nav-tabs {
+  padding: 0% 3% 0% 3%;
+  border-radius: 5px;
+}
+
+.nav-tabs:hover {
+  background-color: #909079;
 }
 </style>
