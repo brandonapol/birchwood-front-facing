@@ -87,10 +87,14 @@ const props = defineProps({
   border-bottom: 5px solid #000000;
   border-radius: 5px 5px 0px 0px;
   padding: 3%;
+}
+
+.single-page-class {
   transition: background-color 0.2s ease;
 }
 
 .single-page-class:hover {
   background-color: #909079;
+  cursor: pointer;
 }
 </style>
