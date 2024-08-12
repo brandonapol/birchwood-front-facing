@@ -39,12 +39,7 @@ const recipes: Blog[] = [
     notes: [
       "Basically anything red and savory will go in here well - Lentils. Also, butterbean alternatives include chickpeas and Great Northern beans, which are easier to get a hold of. ",
     ],
-    nutrition: [
-      "Calories: 425",
-      "Protein: 15.85g",
-      "Carbs: 39g",
-      "Fat: 23g",
-    ],
+    nutrition: ["Calories: 425", "Protein: 15.85g", "Carbs: 39g", "Fat: 23g"],
   },
   {
     id: gen_id(),
@@ -75,12 +70,7 @@ const recipes: Blog[] = [
     notes: [
       "Increase number of chipotle peppers for passive heat in the meal. Alternatively you can add cayenne to the pork belly, just be cautious with it. I also tend to be licentious with the honey.",
     ],
-    nutrition: [
-      "Calories: 788",
-      "Protein: 19g",
-      "Carbs: 49g",
-      "Fat: 56g",
-    ],
+    nutrition: ["Calories: 788", "Protein: 19g", "Carbs: 49g", "Fat: 56g"],
   },
   {
     id: gen_id(),
@@ -142,12 +132,7 @@ const recipes: Blog[] = [
       "Bake uncovered at 375-400 approximately 30 minutes or until middle is set",
     ],
     notes: ['"It goes hard trust me" - Hunter W'],
-    nutrition: [
-      "Calories: 410",
-      "Protein: 21g",
-      "Carbs: 14g",
-      "Fat: 30g"
-    ],
+    nutrition: ["Calories: 410", "Protein: 21g", "Carbs: 14g", "Fat: 30g"],
   },
   {
     id: gen_id(),
@@ -173,12 +158,7 @@ const recipes: Blog[] = [
       "4. Garnish and Serve: Sprinkle each taco with fresh dill for a burst of color and freshness. Serve immediately, letting each bite take you on a delicious journey through Polish flavors wrapped in the convenience of a taco.",
     ],
     notes: [],
-    nutrition: [
-      "Calories: 609",
-      "Protein: 20g",
-      "Carbs: 225g",
-      "Fat: 253g"
-    ],
+    nutrition: ["Calories: 609", "Protein: 20g", "Carbs: 225g", "Fat: 253g"],
   },
   {
     id: gen_id(),
@@ -192,20 +172,51 @@ const recipes: Blog[] = [
       "1/2 teaspoon oregano",
       "1 teaspoon salt",
       "1/2 teaspoon black pepper",
-      "Cayenne to taste"
+      "Cayenne to taste",
     ],
     instructions: [
-      "1. Cut chicken into bite-size cubes.", 
+      "1. Cut chicken into bite-size cubes.",
       "2. Combine chicken, garlic, olive oil, adobo sauce, and seasoning in a large bowl. Cover and let sit for 30 min to two days.",
       "3. Preheat oil in a large pan over medium-high heat. Add chicken to pan and cook.",
-      "4. Remove chicken and serve with cheese, lettuce, black beans, fajita vegetables, and rice."
+      "4. Remove chicken and serve with cheese, lettuce, black beans, fajita vegetables, and rice.",
     ],
     notes: [],
+    nutrition: ["Calories: 267", "Protein: 41g", "Carbs: 4g", "Fat: 6g"],
+  },
+  {
+    id: gen_id(),
+    title: "Slow Cooker Korean Beef",
+    ingredients: [
+      "2.5 lbs Chuck roast",
+      "1/2 cup soy sauce",
+      "1/3 cup brown sugar",
+      "1/4 cup rice vinegar",
+      "1/4 cup sesame oil",
+      "4 garlic cloves, minced",
+      "1 inch ginger, minced",
+      "1/2 cup beef broth",
+      "1 tsp red pepper flakes",
+      "2 tbsp gochujang",
+      "1 large onion, sliced",
+      "2 green onions, chopped",
+      "1 tbsp sesame seeds",
+      "Rice",
+    ],
+    instructions: [
+      "1. Prepare the chuck roast: Cut chuck roast into large chunks.",
+      "2. Mix the sauce: whisk together soy sauce, brown sugar, rice vinegar, sesame oil, garlic, ginger, red pepper flakes, beef broth, and gochujang until well combined.",
+      "3. Assemble in crock pot: Place sliced onion at the bottom of the crock pot. Place the chunks of roast on top of the onion, then pour sauce over the meat. It's ok if the meat isn't fully submerged, but get a good coating over all of it.",
+      "4. Cook: 7-8 hours on low heat. The beef should be easy to shred with a fork.",
+      "5. Serve: Place spoonfuls over cooked rice, and garnish with chopped green onions and sesame seeds. The juices are super high calorie so feel free to remove the meat and onions from it before serving.",
+    ],
+    notes: [
+      "I replaced the red pepper flakes with chili oil which was pretty good. Getting the meat out of the juice goes a long ways as well. Recommend a side of steamed broccoli. The onions and meat break down a lot so by the time it's cooked it will all be submerged.",
+    ],
     nutrition: [
-      "Calories: 267",
-      "Protein: 41g",
-      "Carbs: 4g",
-      "Fat: 6g"
+      "Calories: 410",
+      "Protein: 30g",
+      "Fat: 23g",
+      "Carbohydrates: 20g",
     ],
   },
 ];
