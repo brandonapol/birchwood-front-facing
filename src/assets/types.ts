@@ -5,4 +5,5 @@ export type Blog = {
   instructions: string[];
   notes: string[] | [];
   nutrition: string[] | [];
+  macros?: string[] | [];
 };
