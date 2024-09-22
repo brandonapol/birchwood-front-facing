@@ -219,6 +219,32 @@ const recipes: Blog[] = [
       "Carbohydrates: 20g",
     ],
   },
+   { 
+      "id": gen_id(),
+      "title": "Blackened Chicken",
+      "ingredients": [
+        "1 teaspoon chipotle powder (for smokiness and heat)",
+        "1 teaspoon chile powder (for warmth and a bit of color)",
+        "1 teaspoon garlic powder",
+        "1 teaspoon onion powder",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried thyme",
+        "1/2 teaspoon cumin (optional, for extra smokiness)",
+        "1/2 teaspoon black pepper",
+        "1/2 teaspoon salt",
+        "1/4 to 1/2 teaspoon cayenne pepper (optional, for extra heat – adjust to taste)"
+      ],
+      "instructions": [
+        "Prepare the Chicken: Coat the chicken breasts with olive oil or melted butter.",
+        "Mix the Seasoning: In a small bowl, combine all the spices.",
+        "Season and Cook: Rub the spice mixture generously on both sides of the chicken and cook using your preferred method—either stovetop or grill.",
+        "Rest and Slice: After cooking, allow the chicken to rest for 5 minutes, then slice and serve."
+      ],
+      "notes": [
+        "Butter only works if the chicken is reasonably warm to begin with, as cold chicken will make the butter coagulate."
+      ],
+      "nutrition": []
+   }
 ];
 
 export default recipes;
