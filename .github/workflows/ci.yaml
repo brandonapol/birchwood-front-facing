@@ -29,12 +29,15 @@ jobs:
     - name: Install dependencies
       run: |
         npm ci
+    
+    - name: Run Tests
+      run: |
+        npm run test
 
     - name: Build
       run: |
         npm run build --if-present
         cp ./dist/index.html ./dist/404.html
-
 
     - name: Deploy
       if: ${{ github.ref == 'refs/heads/main' }}
