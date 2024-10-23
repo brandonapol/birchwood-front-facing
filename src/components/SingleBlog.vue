@@ -64,7 +64,7 @@ const props = defineProps({
 });
 
 const hasNotes = props.post.notes[0] !== undefined;
-const hasMacros = props.post.macros !== undefined;
+const hasMacros = props.post.nutrition[0] !== undefined;
 
 </script>
 
