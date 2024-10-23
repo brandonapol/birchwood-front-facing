@@ -244,7 +244,48 @@ const recipes: Blog[] = [
         "Butter only works if the chicken is reasonably warm to begin with, as cold chicken will make the butter coagulate."
       ],
       "nutrition": []
-   }
+   },
+      {
+      "id": gen_id(),
+      "title": "Bulgogi Tacos",
+      "ingredients": [
+        "1 lb (450g) beef ribeye or sirloin, thinly sliced",
+        "1/4 cup soy sauce",
+        "2 tablespoons sesame oil",
+        "2 tablespoons sugar (or honey)",
+        "1 tablespoon rice vinegar",
+        "1 tablespoon gochujang",
+        "1 tablespoon minced garlic",
+        "1 tablespoon grated ginger",
+        "1/4 teaspoon black pepper",
+        "1/2 onion, thinly sliced",
+        "2 green onions, chopped",
+        "1 tablespoon sesame seeds",
+        "1 tablespoon neutral oil",
+        "Small soft flour or corn tortillas",
+        "1 cup kimchi, chopped",
+        "Fresh cilantro",
+        "1 cucumber, thinly sliced into matchsticks",
+        "1-2 radishes, thinly sliced (optional)",
+        "Gochujang mayo (mix 2 tablespoons mayo with 1 teaspoon gochujang)",
+        "Lime wedges for serving",
+      ],
+      "instructions": [
+        "1. Marinate the Beef: In a bowl, combine soy sauce, sesame oil, sugar, rice vinegar, gochujang (if using), garlic, ginger, black pepper, and sesame seeds. Add the sliced beef and onions to the marinade. Toss everything together to coat the beef well. Marinate for at least 30 minutes or up to 2 hours in the fridge.",
+        "2. Cook the Beef: Heat a large skillet or grill pan over medium-high heat and add the oil. Once hot, add the marinated beef and onions in batches (don’t overcrowd the pan). Cook the beef for 3-5 minutes until browned and cooked through. Set aside.",        
+        "3. Prepare the Tacos: Warm the tortillas in a skillet or on a grill until lightly charred. Then, assemble your tacos by layering a few pieces of bulgogi beef onto each tortilla.",
+        "4. Toppings: Top the tacos with chopped kimchi, fresh cilantro, cucumber matchsticks, radish slices (if using), and a drizzle of gochujang mayo. Squeeze a lime wedge over the top for some acidity.",
+        "5. Serve: Serve immediately with extra lime wedges and gochujang mayo on the side for those who like it spicier."
+      ],
+      "notes": [],
+      "nutrition": [
+        "Per taco:", 
+        "Protein: 20-25g",
+        "Carbs: 15-20g",
+        "Fat: 10-15g",
+        "Calories: 250-300 kcal",
+      ]
+    }
 ];
 
 export default recipes;
