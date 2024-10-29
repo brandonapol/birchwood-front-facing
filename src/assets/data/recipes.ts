@@ -285,6 +285,33 @@ const recipes: Blog[] = [
         "Fat: 10-15g",
         "Calories: 250-300 kcal",
       ]
+    },
+    {
+      "id": gen_id(),
+      "title": "Beer Brat Pasta",
+      "ingredients": [
+        "Sweet onion",
+        "Garlic",
+        "1-2 red bell peppers",
+        "Beer brats",
+        "Penne pasta",
+        "1lb of SHARP cheddar cheese, shredded",
+        "Medium-light beer, like a pilsner or hefeweisen (optional)"
+      ],
+      "instructions": [
+        "1. Preheat oven to 425. Veggies always first, because they take the longest. Cut up the onion, bell pepper[s] and garlic (make up how much garlic you want) and lay them on a baking tray with olive oil. I like laying a sheet of tinfoil down to keep the tray cleaner.",
+        "2. Cook the veggies for 15-20 minutes. I usually use a fork and test the bell pepper chunks near the center for tenderness. You can also grill these if you don't want your house to smell like garlic.",
+        "3. De-sleeve the bratwurst (squeeze the ground meat out of the tube) and discard the sleeves. You can also buy bratwurst pre-removed but that's less fun. Toss a 1/2 cup of beer in to fry the bratwurst in for flavor. Drink the rest of the beer.",
+        "4. Boil some water and cook the pasta. Hopefully your cheese is already shredded but now while the ingredients are all cooking is not a bad time to shred cheese too.",
+        "5. When the pasta is done, drain it. Add the vegetables and cheese next, then depending on how much grease you want you can either just dump the browned bratwurst in or remove the meat from the grease and add it.",
+        "6. That's basically it. Stir it up and serve."
+      ],
+      "notes": [
+        "I have made this recipe with caribou and moose meat, I've made gluten-free/vegan versions with plant based sausage, used white onions instead of sweet onions, pre-minced garlic, green bell peppers instead of red. You can replace whatever you like. The moose version remains the greatest but the above recipe is my norm now. It's hard to screw it up and the cheese covers a host of sins."
+      ],
+      "nutrition": [
+        "Honestly I don't want to know the macros. Probably a million calories per serving. Yum"
+      ]
     }
 ];
 
