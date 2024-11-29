@@ -312,6 +312,29 @@ const recipes: Blog[] = [
       "nutrition": [
         "Honestly I don't want to know the macros. Probably a million calories per serving. Yum"
       ]
+    },
+    {
+      "id": gen_id(),
+      "title": "Sausage Kale Chickpea",
+      "ingredients": [
+        "1lb Italian Sausage",
+        "1 Large Bunch of Kale",
+        "1 Large or 2 Small Potatoes",
+        "1 White Onion",
+        "Some garlic",
+        "1 Can Chickpeas"
+      ],
+      "instructions": [
+        "Start out by cutting up the potatoes into small cubes and roasting in the oven. 425 degrees for around 30 minutes. Alternatively air fryer will work great at 400 for 15 minutes.",
+        "In a large pot, caramelize the onions and garlic in olive oil. In a separate pan brown the sausage.",
+        "As the potatoes are nearly ready, throw the chickpeas into the large pot.",
+        "Add the potatoes and kale to the large pot. Add salt and pepper.",
+        "Feel free to add red pepper flakes or other spices to add excitement. Serve when the kale is reasonably softened."
+      ],
+      "notes": [
+        "The trick with this recipe is figuring out how to time the different ingredients need to go on. You don't want the potatoes to mush or the onions to dry out."
+      ],
+      "nutrition": []
     }
 ];
 
