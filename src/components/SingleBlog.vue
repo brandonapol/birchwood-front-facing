@@ -75,6 +75,10 @@ const hasMacros = props.post.nutrition[0] !== undefined;
   font-weight: 700;
 }
 
+h4 {
+  text-decoration: underline;
+}
+
 .titlesection {
   display: flex;
   justify-content: center;
