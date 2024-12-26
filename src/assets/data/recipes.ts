@@ -219,123 +219,145 @@ const recipes: Blog[] = [
       "Carbohydrates: 20g",
     ],
   },
-   { 
-      "id": gen_id(),
-      "title": "Blackened Chicken",
-      "ingredients": [
-        "1 teaspoon chipotle powder (for smokiness and heat)",
-        "1 teaspoon chile powder (for warmth and a bit of color)",
-        "1 teaspoon garlic powder",
-        "1 teaspoon onion powder",
-        "1 teaspoon dried oregano",
-        "1 teaspoon dried thyme",
-        "1/2 teaspoon cumin (optional, for extra smokiness)",
-        "1/2 teaspoon black pepper",
-        "1/2 teaspoon salt",
-        "1/4 to 1/2 teaspoon cayenne pepper (optional, for extra heat – adjust to taste)"
-      ],
-      "instructions": [
-        "Prepare the Chicken: Coat the chicken breasts with olive oil or melted butter.",
-        "Mix the Seasoning: In a small bowl, combine all the spices.",
-        "Season and Cook: Rub the spice mixture generously on both sides of the chicken and cook using your preferred method—either stovetop or grill.",
-        "Rest and Slice: After cooking, allow the chicken to rest for 5 minutes, then slice and serve."
-      ],
-      "notes": [
-        "Butter only works if the chicken is reasonably warm to begin with, as cold chicken will make the butter coagulate."
-      ],
-      "nutrition": []
-   },
-      {
-      "id": gen_id(),
-      "title": "Bulgogi Tacos",
-      "ingredients": [
-        "1 lb (450g) beef ribeye or sirloin, thinly sliced",
-        "1/4 cup soy sauce",
-        "2 tablespoons sesame oil",
-        "2 tablespoons sugar (or honey)",
-        "1 tablespoon rice vinegar",
-        "1 tablespoon gochujang",
-        "1 tablespoon minced garlic",
-        "1 tablespoon grated ginger",
-        "1/4 teaspoon black pepper",
-        "1/2 onion, thinly sliced",
-        "2 green onions, chopped",
-        "1 tablespoon sesame seeds",
-        "1 tablespoon neutral oil",
-        "Small soft flour or corn tortillas",
-        "1 cup kimchi, chopped",
-        "Fresh cilantro",
-        "1 cucumber, thinly sliced into matchsticks",
-        "1-2 radishes, thinly sliced (optional)",
-        "Gochujang mayo (mix 2 tablespoons mayo with 1 teaspoon gochujang)",
-        "Lime wedges for serving",
-      ],
-      "instructions": [
-        "1. Marinate the Beef: In a bowl, combine soy sauce, sesame oil, sugar, rice vinegar, gochujang (if using), garlic, ginger, black pepper, and sesame seeds. Add the sliced beef and onions to the marinade. Toss everything together to coat the beef well. Marinate for at least 30 minutes or up to 2 hours in the fridge.",
-        "2. Cook the Beef: Heat a large skillet or grill pan over medium-high heat and add the oil. Once hot, add the marinated beef and onions in batches (don’t overcrowd the pan). Cook the beef for 3-5 minutes until browned and cooked through. Set aside.",        
-        "3. Prepare the Tacos: Warm the tortillas in a skillet or on a grill until lightly charred. Then, assemble your tacos by layering a few pieces of bulgogi beef onto each tortilla.",
-        "4. Toppings: Top the tacos with chopped kimchi, fresh cilantro, cucumber matchsticks, radish slices (if using), and a drizzle of gochujang mayo. Squeeze a lime wedge over the top for some acidity.",
-        "5. Serve: Serve immediately with extra lime wedges and gochujang mayo on the side for those who like it spicier."
-      ],
-      "notes": [],
-      "nutrition": [
-        "Per taco:", 
-        "Protein: 20-25g",
-        "Carbs: 15-20g",
-        "Fat: 10-15g",
-        "Calories: 250-300 kcal",
-      ]
-    },
-    {
-      "id": gen_id(),
-      "title": "Beer Brat Pasta",
-      "ingredients": [
-        "Sweet onion",
-        "Garlic",
-        "1-2 red bell peppers",
-        "Beer brats",
-        "Penne pasta",
-        "1lb of SHARP cheddar cheese, shredded",
-        "Medium-light beer, like a pilsner or hefeweisen (optional)"
-      ],
-      "instructions": [
-        "1. Preheat oven to 425. Veggies always first, because they take the longest. Cut up the onion, bell pepper[s] and garlic (make up how much garlic you want) and lay them on a baking tray with olive oil. I like laying a sheet of tinfoil down to keep the tray cleaner.",
-        "2. Cook the veggies for 15-20 minutes. I usually use a fork and test the bell pepper chunks near the center for tenderness. You can also grill these if you don't want your house to smell like garlic.",
-        "3. De-sleeve the bratwurst (squeeze the ground meat out of the tube) and discard the sleeves. You can also buy bratwurst pre-removed but that's less fun. Toss a 1/2 cup of beer in to fry the bratwurst in for flavor. Drink the rest of the beer.",
-        "4. Boil some water and cook the pasta. Hopefully your cheese is already shredded but now while the ingredients are all cooking is not a bad time to shred cheese too.",
-        "5. When the pasta is done, drain it. Add the vegetables and cheese next, then depending on how much grease you want you can either just dump the browned bratwurst in or remove the meat from the grease and add it.",
-        "6. That's basically it. Stir it up and serve."
-      ],
-      "notes": [
-        "I have made this recipe with caribou and moose meat, I've made gluten-free/vegan versions with plant based sausage, used white onions instead of sweet onions, pre-minced garlic, green bell peppers instead of red. You can replace whatever you like. The moose version remains the greatest but the above recipe is my norm now. It's hard to screw it up and the cheese covers a host of sins."
-      ],
-      "nutrition": [
-        "Honestly I don't want to know the macros. Probably a million calories per serving. Yum"
-      ]
-    },
-    {
-      "id": gen_id(),
-      "title": "Sausage Kale Chickpea",
-      "ingredients": [
-        "1lb Italian Sausage",
-        "1 Large Bunch of Kale",
-        "1 Large or 2 Small Potatoes",
-        "1 White Onion",
-        "Some garlic",
-        "1 Can Chickpeas"
-      ],
-      "instructions": [
-        "Start out by cutting up the potatoes into small cubes and roasting in the oven. 425 degrees for around 30 minutes. Alternatively air fryer will work great at 400 for 15 minutes.",
-        "In a large pot, caramelize the onions and garlic in olive oil. In a separate pan brown the sausage.",
-        "As the potatoes are nearly ready, throw the chickpeas into the large pot.",
-        "Add the potatoes and kale to the large pot. Add salt and pepper.",
-        "Feel free to add red pepper flakes or other spices to add excitement. Serve when the kale is reasonably softened."
-      ],
-      "notes": [
-        "The trick with this recipe is figuring out how to time the different ingredients need to go on. You don't want the potatoes to mush or the onions to dry out."
-      ],
-      "nutrition": []
-    }
+  {
+    id: gen_id(),
+    title: "Blackened Chicken",
+    ingredients: [
+      "1 teaspoon chipotle powder (for smokiness and heat)",
+      "1 teaspoon chile powder (for warmth and a bit of color)",
+      "1 teaspoon garlic powder",
+      "1 teaspoon onion powder",
+      "1 teaspoon dried oregano",
+      "1 teaspoon dried thyme",
+      "1/2 teaspoon cumin (optional, for extra smokiness)",
+      "1/2 teaspoon black pepper",
+      "1/2 teaspoon salt",
+      "1/4 to 1/2 teaspoon cayenne pepper (optional, for extra heat – adjust to taste)",
+    ],
+    instructions: [
+      "Prepare the Chicken: Coat the chicken breasts with olive oil or melted butter.",
+      "Mix the Seasoning: In a small bowl, combine all the spices.",
+      "Season and Cook: Rub the spice mixture generously on both sides of the chicken and cook using your preferred method—either stovetop or grill.",
+      "Rest and Slice: After cooking, allow the chicken to rest for 5 minutes, then slice and serve.",
+    ],
+    notes: [
+      "Butter only works if the chicken is reasonably warm to begin with, as cold chicken will make the butter coagulate.",
+    ],
+    nutrition: [],
+  },
+  {
+    id: gen_id(),
+    title: "Bulgogi Tacos",
+    ingredients: [
+      "1 lb (450g) beef ribeye or sirloin, thinly sliced",
+      "1/4 cup soy sauce",
+      "2 tablespoons sesame oil",
+      "2 tablespoons sugar (or honey)",
+      "1 tablespoon rice vinegar",
+      "1 tablespoon gochujang",
+      "1 tablespoon minced garlic",
+      "1 tablespoon grated ginger",
+      "1/4 teaspoon black pepper",
+      "1/2 onion, thinly sliced",
+      "2 green onions, chopped",
+      "1 tablespoon sesame seeds",
+      "1 tablespoon neutral oil",
+      "Small soft flour or corn tortillas",
+      "1 cup kimchi, chopped",
+      "Fresh cilantro",
+      "1 cucumber, thinly sliced into matchsticks",
+      "1-2 radishes, thinly sliced (optional)",
+      "Gochujang mayo (mix 2 tablespoons mayo with 1 teaspoon gochujang)",
+      "Lime wedges for serving",
+    ],
+    instructions: [
+      "1. Marinate the Beef: In a bowl, combine soy sauce, sesame oil, sugar, rice vinegar, gochujang (if using), garlic, ginger, black pepper, and sesame seeds. Add the sliced beef and onions to the marinade. Toss everything together to coat the beef well. Marinate for at least 30 minutes or up to 2 hours in the fridge.",
+      "2. Cook the Beef: Heat a large skillet or grill pan over medium-high heat and add the oil. Once hot, add the marinated beef and onions in batches (don’t overcrowd the pan). Cook the beef for 3-5 minutes until browned and cooked through. Set aside.",
+      "3. Prepare the Tacos: Warm the tortillas in a skillet or on a grill until lightly charred. Then, assemble your tacos by layering a few pieces of bulgogi beef onto each tortilla.",
+      "4. Toppings: Top the tacos with chopped kimchi, fresh cilantro, cucumber matchsticks, radish slices (if using), and a drizzle of gochujang mayo. Squeeze a lime wedge over the top for some acidity.",
+      "5. Serve: Serve immediately with extra lime wedges and gochujang mayo on the side for those who like it spicier.",
+    ],
+    notes: [],
+    nutrition: [
+      "Per taco:",
+      "Protein: 20-25g",
+      "Carbs: 15-20g",
+      "Fat: 10-15g",
+      "Calories: 250-300 kcal",
+    ],
+  },
+  {
+    id: gen_id(),
+    title: "Beer Brat Pasta",
+    ingredients: [
+      "Sweet onion",
+      "Garlic",
+      "1-2 red bell peppers",
+      "Beer brats",
+      "Penne pasta",
+      "1lb of SHARP cheddar cheese, shredded",
+      "Medium-light beer, like a pilsner or hefeweisen (optional)",
+    ],
+    instructions: [
+      "1. Preheat oven to 425. Veggies always first, because they take the longest. Cut up the onion, bell pepper[s] and garlic (make up how much garlic you want) and lay them on a baking tray with olive oil. I like laying a sheet of tinfoil down to keep the tray cleaner.",
+      "2. Cook the veggies for 15-20 minutes. I usually use a fork and test the bell pepper chunks near the center for tenderness. You can also grill these if you don't want your house to smell like garlic.",
+      "3. De-sleeve the bratwurst (squeeze the ground meat out of the tube) and discard the sleeves. You can also buy bratwurst pre-removed but that's less fun. Toss a 1/2 cup of beer in to fry the bratwurst in for flavor. Drink the rest of the beer.",
+      "4. Boil some water and cook the pasta. Hopefully your cheese is already shredded but now while the ingredients are all cooking is not a bad time to shred cheese too.",
+      "5. When the pasta is done, drain it. Add the vegetables and cheese next, then depending on how much grease you want you can either just dump the browned bratwurst in or remove the meat from the grease and add it.",
+      "6. That's basically it. Stir it up and serve.",
+    ],
+    notes: [
+      "I have made this recipe with caribou and moose meat, I've made gluten-free/vegan versions with plant based sausage, used white onions instead of sweet onions, pre-minced garlic, green bell peppers instead of red. You can replace whatever you like. The moose version remains the greatest but the above recipe is my norm now. It's hard to screw it up and the cheese covers a host of sins.",
+    ],
+    nutrition: [
+      "Honestly I don't want to know the macros. Probably a million calories per serving. Yum",
+    ],
+  },
+  {
+    id: gen_id(),
+    title: "Sausage Kale Chickpea",
+    ingredients: [
+      "1lb Italian Sausage",
+      "1 Large Bunch of Kale",
+      "1 Large or 2 Small Potatoes",
+      "1 White Onion",
+      "Some garlic",
+      "1 Can Chickpeas",
+    ],
+    instructions: [
+      "Start out by cutting up the potatoes into small cubes and roasting in the oven. 425 degrees for around 30 minutes. Alternatively air fryer will work great at 400 for 15 minutes.",
+      "In a large pot, caramelize the onions and garlic in olive oil. In a separate pan brown the sausage.",
+      "As the potatoes are nearly ready, throw the chickpeas into the large pot.",
+      "Add the potatoes and kale to the large pot. Add salt and pepper.",
+      "Feel free to add red pepper flakes or other spices to add excitement. Serve when the kale is reasonably softened.",
+    ],
+    notes: [
+      "The trick with this recipe is figuring out how to time the different ingredients need to go on. You don't want the potatoes to mush or the onions to dry out.",
+    ],
+    nutrition: [],
+  },
+  {
+    id: gen_id(),
+    title: "Campfire Chili",
+    ingredients: [
+      "2lbs ground beef",
+      "2 cloves of garlic",
+      "2-3 cans of diced tomatoes",
+      "1 can of tomato paste",
+      "1/2 cup of flour",
+      "Dark chocolate to taste",
+      "Optional jalapenos",
+      "Some amount of cumin, garlic powder, salt, paprika, cayenne",
+      "2 cans of kidney and/or black beans",
+    ],
+    instructions: [
+      "1. Brown the ground beef by lowering the cast iron into the coals.",
+      "2. Add the tomatoes and beans once the meat is browned. Raise the pot higher to a more moderate temperature.",
+      "3. Add the spices and chocolate and flour. Simmer for around 45 minutes.",
+    ],
+    notes: ["Coals on top of the cast iron pot help keep things warm, be aware that you can accidentally get ashes in the food though."],
+    nutrition: [],
+  },
 ];
 
 export default recipes;
