@@ -358,6 +358,45 @@ const recipes: Blog[] = [
     notes: ["Coals on top of the cast iron pot help keep things warm, be aware that you can accidentally get ashes in the food though."],
     nutrition: [],
   },
+  {
+    id: gen_id(),
+    title: "Tantanmen Ramen",
+    ingredients: [
+      "2 cups chicken stock (or vegetable stock for vegetarian)",
+      "1 cup unsweetened soy milk", 
+      "2 tbsp sesame paste (or tahini)",
+      "1 tbsp peanut butter (optional, for extra nuttiness)",
+      "1 tbsp soy sauce",
+      "1 tbsp mirin",
+      "1 tsp rice vinegar",
+      "1 tsp sugar",
+      "1 tbsp chili oil (or to taste)",
+      "2 cloves garlic, minced",
+      "1 tsp grated ginger",
+      "150g ground pork (or plant-based meat alternative)", 
+      "1 tbsp sesame oil",
+      "1 tbsp miso paste",
+      "1 tsp chili flakes",
+      "2 soft-boiled eggs (optional)",
+      "Green onions, finely chopped",
+      "Bok choy or spinach, lightly blanched",
+      "Toasted sesame seeds",
+      "2 portions of fresh ramen noodles (or dried, if unavailable)"
+    ],
+    instructions: [
+      "1. Prepare the Toppings: Heat sesame oil in a skillet over medium heat. Add ground pork and cook until browned. Stir in miso paste, soy sauce, and chili flakes, cooking for 2-3 more minutes. Set aside.",
+      "2. Make the Broth: In a pot over medium heat, sauté garlic and ginger until fragrant. Add chicken stock and soy milk, stirring to combine. Whisk in sesame paste, peanut butter (if using), soy sauce, mirin, rice vinegar, and sugar. Simmer for 5-7 minutes, adjusting seasoning to taste. Stir in chili oil for a spicy kick.", 
+      "3. Cook the Noodles: Bring a pot of water to a boil. Cook ramen noodles according to package instructions. Drain and set aside.",
+      "4. Assemble the Ramen: Divide noodles into two bowls. Ladle the creamy broth over the noodles. Top with ground pork mixture, blanched greens, soft-boiled eggs, green onions, and a sprinkle of sesame seeds. Drizzle extra chili oil for added heat, if desired."
+    ],
+    notes: ["Feeds two."],
+    nutrition: [
+      "Calories: 715",
+      "Protein: 42g",
+      "Carbs: 46.5g",
+      "Fat: 40g"
+    ]
+  }
 ];
 
 export default recipes;
