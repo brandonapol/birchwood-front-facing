@@ -396,7 +396,52 @@ const recipes: Blog[] = [
       "Carbs: 46.5g",
       "Fat: 40g"
     ]
+  },
+  {
+    "id": "gen_id()",
+    "title": "Crispy Honey Sriracha Chicken Bowl",
+    "ingredients": [
+      "1 lb chicken breast",
+      "1/2 tsp salt",
+      "1/2 tsp garlic powder",
+      "1/4 tsp black pepper",
+      "1/2 cup cornstarch",
+      "2 eggs, beaten",
+      "1 cup panko breadcrumbs (or a mix of panko and flour)",
+      "Neutral oil for frying (avocado, peanut, or vegetable)",
+      "3 tbsp honey",
+      "2 tbsp sriracha (adjust to taste)",
+      "1 tbsp soy sauce",
+      "1 tbsp rice vinegar",
+      "1 tsp grated ginger",
+      "1 tsp sesame oil (optional)",
+      "1 cup cooked jasmine or brown rice",
+      "1/2 cucumber, thinly sliced",
+      "1/2 avocado, sliced",
+      "Sesame seeds (for garnish)",
+      "Green onions, sliced (for garnish)"
+    ],
+    "instructions": [
+      "1. Pound the Chicken: Place the chicken breast between plastic wrap and pound to 1/2-inch thickness. Season both sides with salt, garlic powder, and black pepper.",
+      "2. Coat the Chicken: Dredge the chicken in cornstarch, dip in beaten egg, then coat thoroughly with panko breadcrumbs. Press gently to help the coating stick.",
+      "3. Fry the Chicken: Heat about 1/2 inch of oil in a pan to 350°F (175°C). Fry the chicken for 4-5 minutes per side until golden brown. Drain on a wire rack.",
+      "4. Make the Sauce: In a small pan, mix honey, sriracha, soy sauce, rice vinegar, and grated ginger. Simmer for 2 minutes until slightly thickened. Remove from heat and stir in sesame oil.",
+      "5. Assemble the Bowl: Slice the crispy chicken into strips. Drizzle or brush with sauce to lightly coat. Serve over a bowl of warm rice with cucumber and avocado.",
+      "6. Garnish & Serve: Sprinkle with sesame seeds and sliced green onions. Serve with extra sauce on the side."
+    ],
+    "notes": [
+      "Feeds two.",
+      "For extra crispiness, double-fry the chicken by frying once at 325°F (160°C) and again at 375°F (190°C).",
+      "Adjust sriracha for desired spice level."
+    ],
+    "nutrition": [
+      "Calories: 720",
+      "Protein: 44g",
+      "Carbs: 68g",
+      "Fat: 30g"
+    ]
   }
+  
 ];
 
 export default recipes;
