@@ -272,7 +272,7 @@ const recipes: Blog[] = [
     ],
     instructions: [
       "1. Marinate the Beef: In a bowl, combine soy sauce, sesame oil, sugar, rice vinegar, gochujang (if using), garlic, ginger, black pepper, and sesame seeds. Add the sliced beef and onions to the marinade. Toss everything together to coat the beef well. Marinate for at least 30 minutes or up to 2 hours in the fridge.",
-      "2. Cook the Beef: Heat a large skillet or grill pan over medium-high heat and add the oil. Once hot, add the marinated beef and onions in batches (don’t overcrowd the pan). Cook the beef for 3-5 minutes until browned and cooked through. Set aside.",
+      "2. Cook the Beef: Heat a large skillet or grill pan over medium-high heat and add the oil. Once hot, add the marinated beef and onions in batches (don't overcrowd the pan). Cook the beef for 3-5 minutes until browned and cooked through. Set aside.",
       "3. Prepare the Tacos: Warm the tortillas in a skillet or on a grill until lightly charred. Then, assemble your tacos by layering a few pieces of bulgogi beef onto each tortilla.",
       "4. Toppings: Top the tacos with chopped kimchi, fresh cilantro, cucumber matchsticks, radish slices (if using), and a drizzle of gochujang mayo. Squeeze a lime wedge over the top for some acidity.",
       "5. Serve: Serve immediately with extra lime wedges and gochujang mayo on the side for those who like it spicier.",
@@ -440,8 +440,47 @@ const recipes: Blog[] = [
       "Carbs: 68g",
       "Fat: 30g"
     ]
+  },
+  {
+    id: gen_id(),
+    title: "Non-Alcoholic Tiramisu (9x13 Pan)",
+    ingredients: [
+      "9 large egg yolks",
+      "1 1/4 cups granulated sugar",
+      "12 oz mascarpone cheese, at room temperature",
+      "1 1/2 cups heavy whipping cream",
+      "2 1/4 cups concentrated cold brew coffee",
+      "1 1/2 teaspoons vanilla extract",
+      "36-40 ladyfinger biscuits (Savoiardi)",
+      "Unsweetened cocoa powder for dusting",
+      "Dark chocolate shavings (optional, for garnish)"
+    ],
+    instructions: [
+      "1. Prepare the Mascarpone Mixture: In a heatproof bowl, whisk together the egg yolks and sugar.",
+      "2. Place the bowl over a saucepan of simmering water (double boiler) and whisk constantly for about 5 minutes until the mixture thickens slightly. Remove from heat and let cool.",
+      "3. In a separate bowl, beat the heavy whipping cream until stiff peaks form.",
+      "4. Gently fold the mascarpone cheese into the egg mixture until smooth. Then, fold in the whipped cream until fully combined.",
+      "5. Prepare the Coffee Dip: Mix the cold brew with vanilla extract in a shallow dish.",
+      "6. Assemble the Tiramisu: Quickly dip each ladyfinger into the coffee mixture (do not soak too long) and arrange in a single layer in the bottom of a 9x13-inch pan.",
+      "7. Spread half of the mascarpone mixture over the ladyfingers.",
+      "8. Repeat with another layer of dipped ladyfingers, then spread the remaining mascarpone mixture on top.",
+      "9. Chill & Serve: Cover and refrigerate for at least 4 hours (preferably overnight) to let the flavors meld.",
+      "10. Before serving, dust with unsweetened cocoa powder and add chocolate shavings if desired."
+    ],
+    notes: [
+      "This recipe makes a 9x13-inch tiramisu, serving 12-15 people.",
+      "Use concentrated cold brew (1:2 ratio) for a stronger coffee flavor.",
+      "Ladyfingers should be dipped quickly to avoid oversaturation.",
+      "For an alcoholic version, replace 1/2 cup of the cold brew with 1/2 cup coffee liqueur (like Kahlúa or Tia Maria) or 1/4 cup dark rum.",
+      "For an extra decadent texture, chill overnight before serving."
+    ],
+    nutrition: [
+      "Calories: ~350 per serving",
+      "Protein: ~6g",
+      "Carbs: ~35g",
+      "Fat: ~20g"
+    ]
   }
-  
 ];
 
 export default recipes;
