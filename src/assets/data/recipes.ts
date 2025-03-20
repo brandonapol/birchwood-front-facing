@@ -480,6 +480,35 @@ const recipes: Blog[] = [
       "Carbs: ~35g",
       "Fat: ~20g"
     ]
+  },
+  {
+    id: gen_id(),
+    title: "Beet Salad with Goat Cheese and Walnuts",
+    ingredients: [
+      "4 medium-sized beets, scrubbed, roasted, peeled, and diced",
+      "1/3 cup goat cheese, crumbled", 
+      "1/4 cup walnuts, toasted and roughly chopped",
+      "2 cups fresh mixed greens (such as arugula, spinach, or baby kale)",
+      "2 tablespoons balsamic vinegar",
+      "3 tablespoons extra virgin olive oil",
+      "1 teaspoon honey (optional, for the dressing)",
+      "1 teaspoon Dijon mustard",
+      "Salt and pepper, to taste",
+      "Fresh dill or parsley, for garnish"
+    ],
+    instructions: [
+      "1. Prepare the Beets: Preheat your oven to 400°F (200°C). Wrap the beets in aluminum foil and roast them in the preheated oven for about 50-60 minutes, or until tender when pierced with a fork. Once cool enough to handle, peel off the skin and dice the beets into bite-sized pieces.",
+      "2. Make the Dressing: In a small bowl, whisk together the balsamic vinegar, olive oil, honey (if using), Dijon mustard, salt, and pepper until emulsified.",
+      "3. Assemble the Salad: In a large bowl, toss the mixed greens with half of the dressing to lightly coat. Arrange the dressed greens on a serving platter or in a salad bowl. Scatter the diced beets over the greens, followed by the crumbled goat cheese and toasted walnuts.", 
+      "4. Finish and Serve: Drizzle the remaining dressing over the salad. Garnish with fresh dill or parsley for an extra touch of freshness. Give a final sprinkle of salt and pepper to taste, if needed."
+    ],
+    notes: [],
+    nutrition: [
+      "Calories: 285",
+      "Protein: 7g",
+      "Carbs: 14g",
+      "Fat: 23g"
+    ]
   }
 ];
 
