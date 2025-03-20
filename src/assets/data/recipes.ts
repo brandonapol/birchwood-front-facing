@@ -499,7 +499,7 @@ const recipes: Blog[] = [
     instructions: [
       "1. Prepare the Beets: Preheat your oven to 400°F (200°C). Wrap the beets in aluminum foil and roast them in the preheated oven for about 50-60 minutes, or until tender when pierced with a fork. Once cool enough to handle, peel off the skin and dice the beets into bite-sized pieces.",
       "2. Make the Dressing: In a small bowl, whisk together the balsamic vinegar, olive oil, honey (if using), Dijon mustard, salt, and pepper until emulsified.",
-      "3. Assemble the Salad: In a large bowl, toss the mixed greens with half of the dressing to lightly coat. Arrange the dressed greens on a serving platter or in a salad bowl. Scatter the diced beets over the greens, followed by the crumbled goat cheese and toasted walnuts.", 
+      "3. Assemble the Salad: In a large bowl, toss the mixed greens with half of the dressing to lightly coat. Arrange the dressed greens on a serving platter or in a salad bowl; Scatter the diced beets over the greens, followed by the crumbled goat cheese and toasted walnuts.", 
       "4. Finish and Serve: Drizzle the remaining dressing over the salad. Garnish with fresh dill or parsley for an extra touch of freshness. Give a final sprinkle of salt and pepper to taste, if needed."
     ],
     notes: [],
