@@ -509,6 +509,37 @@ const recipes: Blog[] = [
       "Carbs: 14g",
       "Fat: 23g"
     ]
+  },
+  {
+    id: gen_id(),
+    title: "Japanese Curry in the Crock Pot",
+    ingredients: [
+      "1 box Medium Hot curry paste",
+      "1-2 lbs flank steak, cut into bite size pieces (or stew meat)",
+      "1 bag baby carrots",
+      "3 potatoes, cut into chunks",
+      "1-2 little fresh hot peppers, diced very small (or 1 tsp red pepper flakes)",
+      "2 beef bouillon cubes",
+      "2 cups water"
+    ],
+    instructions: [
+      "1. Put the carrots and potatoes in the crock pot and add the meat, then add the pepper on the top.",
+      "2. Mix 2 cups of water with the bouillon cubes and dissolve, add to the crock pot and cover on low 7-8 hours.",
+      "3. Half an hour before serving, add the curry paste. Allow it to sit a minute and then stir it in to dissolve. Once it is mixed thoroughly, allow the crock pot to continue on low for another 20-30 minutes.",
+      "4. Serve over rice. Japanese rice is best, but Calrose brand (in a yellow bag) or Jasmine rice is good."
+    ],
+    notes: [
+      "The curry paste comes in a small box about the size of a business envelope and about 1/2\" deep.",
+      "Can use stew meat instead of flank steak for a cheaper option.",
+      "A side dish of fresh fruit or salad with Asian dressing is good.",
+      "Fresh strawberries with a bit of sweetened condensed milk is a Japanese dessert that pairs well with this."
+    ],
+    nutrition: [
+      "Calories: 425",
+      "Protein: 35g",
+      "Carbs: 30g", 
+      "Fat: 18g"
+    ]
   }
 ];
 
