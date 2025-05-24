@@ -553,6 +553,60 @@ const recipes: Blog[] = [
       "Carbs: 30g", 
       "Fat: 18g"
     ]
+  },
+  {
+    "id": "gen_id()",
+    "title": "Stovetop Harissa Honey Chicken with Roasted Vegetables and Couscous",
+    "ingredients": [
+      "4 boneless, skinless chicken thighs or breasts",
+      "1-2 tablespoons harissa paste",
+      "2-3 tablespoons honey",
+      "2 tablespoons olive oil",
+      "2 cloves garlic, minced",
+      "Juice of half a lemon",
+      "1 teaspoon paprika",
+      "1/2 teaspoon garam masala",
+      "1/2 teaspoon za'atar",
+      "Salt and pepper",
+      "1 red bell pepper, chopped into 1-inch pieces",
+      "1 zucchini, sliced into half-moons",
+      "1 small eggplant, cubed",
+      "1 red onion, cut into wedges",
+      "2 tablespoons olive oil (for vegetables)",
+      "1 teaspoon dried herbs (thyme, oregano, or herbes de Provence)",
+      "1 cup couscous",
+      "1¼ cups vegetable or chicken broth",
+      "1 tablespoon olive oil (for couscous)",
+      "1/2 teaspoon salt (for couscous)",
+      "2 tablespoons fresh herbs (parsley, mint, or cilantro), chopped",
+      "Juice of half a lemon (for finishing)",
+      "1/4 cup crumbled chèvre (goat cheese)"
+    ],
+    "instructions": [
+      "1. Preheat oven to 425°F for the vegetables.",
+      "2. Prep vegetables: Chop bell pepper, zucchini, eggplant, and red onion. Toss with 2 tablespoons olive oil, dried herbs, salt, and pepper on a baking sheet.",
+      "3. Start roasting vegetables: Place in the oven for 25-30 minutes until tender and slightly caramelized.",
+      "4. Prepare chicken marinade: In a bowl, mix harissa paste, honey, minced garlic, lemon juice, paprika, garam masala, za'atar, salt and pepper.",
+      "5. Prep chicken: Pat chicken dry and season with salt and pepper.",
+      "6. Cook couscous: Bring broth to a boil, remove from heat, stir in couscous, 1 tablespoon olive oil, and 1/2 teaspoon salt. Cover and let stand for 5 minutes, then fluff with a fork.",
+      "7. Cook chicken: Heat 2 tablespoons olive oil in a large skillet over medium-high heat. Add chicken and cook until golden brown on both sides, about 4-5 minutes per side.",
+      "8. Finish chicken: Pour the harissa-honey mixture over the chicken. Reduce heat to medium-low and simmer for 5-7 minutes, spooning sauce over chicken until it thickens and chicken reaches 165°F internal temperature.",
+      "9. Combine: Fold roasted vegetables, fresh herbs, and lemon juice into the couscous.",
+      "10. Serve: Place couscous with vegetables on plates, top with chicken and sauce, then crumble chèvre over the top."
+    ],
+    "notes": [
+      "Can substitute chicken breasts for thighs if preferred.",
+      "Couscous can be prepared in a rice cooker using the white rice setting for convenience. Quinoa also works well for gluten free.",
+      "Adjust harissa paste amount based on spice preference - start with less and add more if needed.",
+      "Fresh herbs can be parsley, mint, cilantro, or a combination.",
+      "The paprika, garam masala, and za'atar add depth and warmth to complement the harissa."
+    ],
+    "nutrition": [
+      "Calories: 485",
+      "Protein: 32g",
+      "Carbs: 45g",
+      "Fat: 22g"
+    ]
   }
 ];
 
