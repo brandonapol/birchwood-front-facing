@@ -290,7 +290,9 @@ const recipes: Blog[] = [
       // Serve
       "9. Serve hot, family-style, with extra lime and sauce on the side.",
     ],
-    notes: ["Better with less onions, closer to 3/4 of an onion is pretty good. I like to add a bit more sauce to the beef to make it more flavorful."],
+    notes: [
+      "Better with less onions, closer to 3/4 of an onion is pretty good. I like to add a bit more sauce to the beef to make it more flavorful.",
+    ],
     nutrition: [
       "Macros (Per Serving, ~2-3 tacos):",
       "Protein: 60-75g",
@@ -368,7 +370,9 @@ const recipes: Blog[] = [
       "2. Add the tomatoes and beans once the meat is browned. Raise the pot higher to a more moderate temperature.",
       "3. Add the spices and chocolate and flour. Simmer for around 45 minutes.",
     ],
-    notes: ["Coals on top of the cast iron pot help keep things warm, be aware that you can accidentally get ashes in the food though."],
+    notes: [
+      "Coals on top of the cast iron pot help keep things warm, be aware that you can accidentally get ashes in the food though.",
+    ],
     nutrition: [],
   },
   {
@@ -376,7 +380,7 @@ const recipes: Blog[] = [
     title: "Tantanmen Ramen",
     ingredients: [
       "2 cups chicken stock (or vegetable stock for vegetarian)",
-      "1 cup unsweetened soy milk", 
+      "1 cup unsweetened soy milk",
       "2 tbsp sesame paste (or tahini)",
       "1 tbsp peanut butter (optional, for extra nuttiness)",
       "1 tbsp soy sauce",
@@ -386,7 +390,7 @@ const recipes: Blog[] = [
       "1 tbsp chili oil (or to taste)",
       "2 cloves garlic, minced",
       "1 tsp grated ginger",
-      "150g ground pork (or plant-based meat alternative)", 
+      "150g ground pork (or plant-based meat alternative)",
       "1 tbsp sesame oil",
       "1 tbsp miso paste",
       "1 tsp chili flakes",
@@ -394,26 +398,21 @@ const recipes: Blog[] = [
       "Green onions, finely chopped",
       "Bok choy or spinach, lightly blanched",
       "Toasted sesame seeds",
-      "2 portions of fresh ramen noodles (or dried, if unavailable)"
+      "2 portions of fresh ramen noodles (or dried, if unavailable)",
     ],
     instructions: [
       "1. Prepare the Toppings: Heat sesame oil in a skillet over medium heat. Add ground pork and cook until browned. Stir in miso paste, soy sauce, and chili flakes, cooking for 2-3 more minutes. Set aside.",
-      "2. Make the Broth: In a pot over medium heat, sauté garlic and ginger until fragrant. Add chicken stock and soy milk, stirring to combine. Whisk in sesame paste, peanut butter (if using), soy sauce, mirin, rice vinegar, and sugar. Simmer for 5-7 minutes, adjusting seasoning to taste. Stir in chili oil for a spicy kick.", 
+      "2. Make the Broth: In a pot over medium heat, sauté garlic and ginger until fragrant. Add chicken stock and soy milk, stirring to combine. Whisk in sesame paste, peanut butter (if using), soy sauce, mirin, rice vinegar, and sugar. Simmer for 5-7 minutes, adjusting seasoning to taste. Stir in chili oil for a spicy kick.",
       "3. Cook the Noodles: Bring a pot of water to a boil. Cook ramen noodles according to package instructions. Drain and set aside.",
-      "4. Assemble the Ramen: Divide noodles into two bowls. Ladle the creamy broth over the noodles. Top with ground pork mixture, blanched greens, soft-boiled eggs, green onions, and a sprinkle of sesame seeds. Drizzle extra chili oil for added heat, if desired."
+      "4. Assemble the Ramen: Divide noodles into two bowls. Ladle the creamy broth over the noodles. Top with ground pork mixture, blanched greens, soft-boiled eggs, green onions, and a sprinkle of sesame seeds. Drizzle extra chili oil for added heat, if desired.",
     ],
     notes: ["Feeds two."],
-    nutrition: [
-      "Calories: 715",
-      "Protein: 42g",
-      "Carbs: 46.5g",
-      "Fat: 40g"
-    ]
+    nutrition: ["Calories: 715", "Protein: 42g", "Carbs: 46.5g", "Fat: 40g"],
   },
   {
-    "id": "gen_id()",
-    "title": "Crispy Honey Sriracha Chicken Bowl",
-    "ingredients": [
+    id: "gen_id()",
+    title: "Crispy Honey Sriracha Chicken Bowl",
+    ingredients: [
       "1 lb chicken breast",
       "1/2 tsp salt",
       "1/2 tsp garlic powder",
@@ -432,27 +431,22 @@ const recipes: Blog[] = [
       "1/2 cucumber, thinly sliced",
       "1/2 avocado, sliced",
       "Sesame seeds (for garnish)",
-      "Green onions, sliced (for garnish)"
+      "Green onions, sliced (for garnish)",
     ],
-    "instructions": [
+    instructions: [
       "1. Pound the Chicken: Place the chicken breast between plastic wrap and pound to 1/2-inch thickness. Season both sides with salt, garlic powder, and black pepper.",
       "2. Coat the Chicken: Dredge the chicken in cornstarch, dip in beaten egg, then coat thoroughly with panko breadcrumbs. Press gently to help the coating stick.",
       "3. Fry the Chicken: Heat about 1/2 inch of oil in a pan to 350°F (175°C). Fry the chicken for 4-5 minutes per side until golden brown. Drain on a wire rack.",
       "4. Make the Sauce: In a small pan, mix honey, sriracha, soy sauce, rice vinegar, and grated ginger. Simmer for 2 minutes until slightly thickened. Remove from heat and stir in sesame oil.",
       "5. Assemble the Bowl: Slice the crispy chicken into strips. Drizzle or brush with sauce to lightly coat. Serve over a bowl of warm rice with cucumber and avocado.",
-      "6. Garnish & Serve: Sprinkle with sesame seeds and sliced green onions. Serve with extra sauce on the side."
+      "6. Garnish & Serve: Sprinkle with sesame seeds and sliced green onions. Serve with extra sauce on the side.",
     ],
-    "notes": [
+    notes: [
       "Feeds two.",
       "For extra crispiness, double-fry the chicken by frying once at 325°F (160°C) and again at 375°F (190°C).",
-      "Adjust sriracha for desired spice level."
+      "Adjust sriracha for desired spice level.",
     ],
-    "nutrition": [
-      "Calories: 720",
-      "Protein: 44g",
-      "Carbs: 68g",
-      "Fat: 30g"
-    ]
+    nutrition: ["Calories: 720", "Protein: 44g", "Carbs: 68g", "Fat: 30g"],
   },
   {
     id: gen_id(),
@@ -466,7 +460,7 @@ const recipes: Blog[] = [
       "1 1/2 teaspoons vanilla extract",
       "36-40 ladyfinger biscuits (Savoiardi)",
       "Unsweetened cocoa powder for dusting",
-      "Dark chocolate shavings (optional, for garnish)"
+      "Dark chocolate shavings (optional, for garnish)",
     ],
     instructions: [
       "1. Prepare the Mascarpone Mixture: In a heatproof bowl, whisk together the egg yolks and sugar.",
@@ -478,28 +472,28 @@ const recipes: Blog[] = [
       "7. Spread half of the mascarpone mixture over the ladyfingers.",
       "8. Repeat with another layer of dipped ladyfingers, then spread the remaining mascarpone mixture on top.",
       "9. Chill & Serve: Cover and refrigerate for at least 4 hours (preferably overnight) to let the flavors meld.",
-      "10. Before serving, dust with unsweetened cocoa powder and add chocolate shavings if desired."
+      "10. Before serving, dust with unsweetened cocoa powder and add chocolate shavings if desired.",
     ],
     notes: [
       "This recipe makes a 9x13-inch tiramisu, serving 12-15 people.",
       "Use concentrated cold brew (1:2 ratio) for a stronger coffee flavor.",
       "Ladyfingers should be dipped quickly to avoid oversaturation.",
       "For an alcoholic version, replace 1/2 cup of the cold brew with 1/2 cup coffee liqueur (like Kahlúa or Tia Maria) or 1/4 cup dark rum.",
-      "For an extra decadent texture, chill overnight before serving."
+      "For an extra decadent texture, chill overnight before serving.",
     ],
     nutrition: [
       "Calories: ~350 per serving",
       "Protein: ~6g",
       "Carbs: ~35g",
-      "Fat: ~20g"
-    ]
+      "Fat: ~20g",
+    ],
   },
   {
     id: gen_id(),
     title: "Beet Salad with Goat Cheese and Walnuts",
     ingredients: [
       "4 medium-sized beets, scrubbed, roasted, peeled, and diced",
-      "1/3 cup goat cheese, crumbled", 
+      "1/3 cup goat cheese, crumbled",
       "1/4 cup walnuts, toasted and roughly chopped",
       "2 cups fresh mixed greens (such as arugula, spinach, or baby kale)",
       "2 tablespoons balsamic vinegar",
@@ -507,21 +501,16 @@ const recipes: Blog[] = [
       "1 teaspoon honey (optional, for the dressing)",
       "1 teaspoon Dijon mustard",
       "Salt and pepper, to taste",
-      "Fresh dill or parsley, for garnish"
+      "Fresh dill or parsley, for garnish",
     ],
     instructions: [
       "1. Prepare the Beets: Preheat your oven to 400°F (200°C). Wrap the beets in aluminum foil and roast them in the preheated oven for about 50-60 minutes, or until tender when pierced with a fork. Once cool enough to handle, peel off the skin and dice the beets into bite-sized pieces.",
       "2. Make the Dressing: In a small bowl, whisk together the balsamic vinegar, olive oil, honey (if using), Dijon mustard, salt, and pepper until emulsified.",
-      "3. Assemble the Salad: In a large bowl, toss the mixed greens with half of the dressing to lightly coat. Arrange the dressed greens on a serving platter or in a salad bowl; Scatter the diced beets over the greens, followed by the crumbled goat cheese and toasted walnuts.", 
-      "4. Finish and Serve: Drizzle the remaining dressing over the salad. Garnish with fresh dill or parsley for an extra touch of freshness. Give a final sprinkle of salt and pepper to taste, if needed."
+      "3. Assemble the Salad: In a large bowl, toss the mixed greens with half of the dressing to lightly coat. Arrange the dressed greens on a serving platter or in a salad bowl; Scatter the diced beets over the greens, followed by the crumbled goat cheese and toasted walnuts.",
+      "4. Finish and Serve: Drizzle the remaining dressing over the salad. Garnish with fresh dill or parsley for an extra touch of freshness. Give a final sprinkle of salt and pepper to taste, if needed.",
     ],
     notes: [],
-    nutrition: [
-      "Calories: 285",
-      "Protein: 7g",
-      "Carbs: 14g",
-      "Fat: 23g"
-    ]
+    nutrition: ["Calories: 285", "Protein: 7g", "Carbs: 14g", "Fat: 23g"],
   },
   {
     id: gen_id(),
@@ -533,31 +522,27 @@ const recipes: Blog[] = [
       "3 potatoes, cut into chunks",
       "1-2 little fresh hot peppers, diced very small (or 1 tsp red pepper flakes)",
       "2 beef bouillon cubes",
-      "2 cups water"
+      "2 cups water",
     ],
     instructions: [
       "1. Put the carrots and potatoes in the crock pot and add the meat, then add the pepper on the top.",
       "2. Mix 2 cups of water with the bouillon cubes and dissolve, add to the crock pot and cover on low 7-8 hours.",
       "3. Half an hour before serving, add the curry paste. Allow it to sit a minute and then stir it in to dissolve. Once it is mixed thoroughly, allow the crock pot to continue on low for another 20-30 minutes.",
-      "4. Serve over rice. Japanese rice is best, but Calrose brand (in a yellow bag) or Jasmine rice is good."
+      "4. Serve over rice. Japanese rice is best, but Calrose brand (in a yellow bag) or Jasmine rice is good.",
     ],
     notes: [
-      "The curry paste comes in a small box about the size of a business envelope and about 1/2\" deep.",
+      'The curry paste comes in a small box about the size of a business envelope and about 1/2" deep.',
       "Can use stew meat instead of flank steak for a cheaper option.",
       "A side dish of fresh fruit or salad with Asian dressing is good.",
-      "Fresh strawberries with a bit of sweetened condensed milk is a Japanese dessert that pairs well with this."
+      "Fresh strawberries with a bit of sweetened condensed milk is a Japanese dessert that pairs well with this.",
     ],
-    nutrition: [
-      "Calories: 425",
-      "Protein: 35g",
-      "Carbs: 30g", 
-      "Fat: 18g"
-    ]
+    nutrition: ["Calories: 425", "Protein: 35g", "Carbs: 30g", "Fat: 18g"],
   },
   {
-    "id": "gen_id()",
-    "title": "Stovetop Harissa Honey Chicken with Roasted Vegetables and Couscous",
-    "ingredients": [
+    id: "gen_id()",
+    title:
+      "Stovetop Harissa Honey Chicken with Roasted Vegetables and Couscous",
+    ingredients: [
       "4 boneless, skinless chicken thighs or breasts",
       "1-2 tablespoons harissa paste",
       "2-3 tablespoons honey",
@@ -580,9 +565,9 @@ const recipes: Blog[] = [
       "1/2 teaspoon salt (for couscous)",
       "2 tablespoons fresh herbs (parsley, mint, or cilantro), chopped",
       "Juice of half a lemon (for finishing)",
-      "1/4 cup crumbled chèvre (goat cheese)"
+      "1/4 cup crumbled chèvre (goat cheese)",
     ],
-    "instructions": [
+    instructions: [
       "1. Preheat oven to 425°F for the vegetables.",
       "2. Prep vegetables: Chop bell pepper, zucchini, eggplant, and red onion. Toss with 2 tablespoons olive oil, dried herbs, salt, and pepper on a baking sheet.",
       "3. Start roasting vegetables: Place in the oven for 25-30 minutes until tender and slightly caramelized.",
@@ -592,22 +577,73 @@ const recipes: Blog[] = [
       "7. Cook chicken: Heat 2 tablespoons olive oil in a large skillet over medium-high heat. Add chicken and cook until golden brown on both sides, about 4-5 minutes per side.",
       "8. Finish chicken: Pour the harissa-honey mixture over the chicken. Reduce heat to medium-low and simmer for 5-7 minutes, spooning sauce over chicken until it thickens and chicken reaches 165°F internal temperature.",
       "9. Combine: Fold roasted vegetables, fresh herbs, and lemon juice into the couscous.",
-      "10. Serve: Place couscous with vegetables on plates, top with chicken and sauce, then crumble chèvre over the top."
+      "10. Serve: Place couscous with vegetables on plates, top with chicken and sauce, then crumble chèvre over the top.",
     ],
-    "notes": [
+    notes: [
       "Can substitute chicken breasts for thighs if preferred.",
       "Couscous can be prepared in a rice cooker using the white rice setting for convenience. Quinoa also works well for gluten free.",
       "Adjust harissa paste amount based on spice preference - start with less and add more if needed.",
       "Fresh herbs can be parsley, mint, cilantro, or a combination.",
-      "The paprika, garam masala, and za'atar add depth and warmth to complement the harissa."
+      "The paprika, garam masala, and za'atar add depth and warmth to complement the harissa.",
     ],
-    "nutrition": [
-      "Calories: 485",
-      "Protein: 32g",
-      "Carbs: 45g",
-      "Fat: 22g"
-    ]
-  }
+    nutrition: ["Calories: 485", "Protein: 32g", "Carbs: 45g", "Fat: 22g"],
+  },
+  {
+    id: "gen_id()",
+    title: "Street Cart Chicken & Yellow Rice",
+    ingredients: [
+      "4-6 chicken thighs, boneless and skinless",
+      "Salt for seasoning",
+      "2 whole cloves",
+      "1 teaspoon ground cumin (for marinade)",
+      "1 teaspoon dried oregano",
+      "1/2 teaspoon black pepper",
+      "3-4 garlic cloves",
+      "2 tablespoons fresh lemon juice",
+      "2 tablespoons mayonnaise",
+      "2 tablespoons butter",
+      "1 medium onion, diced",
+      "1 teaspoon ground cumin (for rice)",
+      "1 teaspoon turmeric",
+      "1/2 teaspoon smoked paprika",
+      "1 bay leaf",
+      "1 1/2 cups basmati rice",
+      "2 1/2 cups chicken broth",
+      "Salt to taste",
+      "2 tablespoons vegetable oil for cooking",
+      "1/2 cup mayonnaise (for white sauce)",
+      "1/4 cup Greek yogurt",
+      "1 tablespoon white vinegar",
+      "1 tablespoon fresh lemon juice",
+      "1/4 teaspoon black pepper",
+      "1/2 teaspoon dried oregano",
+      "1/4 teaspoon smoked paprika",
+      "Salt to taste (for white sauce)",
+      "Hot sauce ingredients (cayenne, vinegar, garlic - amounts to taste)",
+      "Pita bread for serving (optional)",
+      "Fresh vegetables or herbs for garnish (optional)",
+    ],
+    instructions: [
+      "1. Prepare chicken marinade: Sprinkle chicken thighs with salt and set aside. Using a mortar and pestle, crush whole cloves and 1 teaspoon cumin. Add oregano, black pepper, and garlic cloves to create a rough paste.",
+      "2. Marinate chicken: In a large mixing bowl, combine lemon juice, mayonnaise, and the spice paste. Add chicken thighs and mix to thoroughly coat. Cover and refrigerate for up to 24 hours, or cook immediately.",
+      "3. Start the rice: Melt butter in a pot over medium heat. Add diced onion, 1 teaspoon cumin, turmeric, smoked paprika, and bay leaf. Bloom aromatics until fragrant but not burnt, about 30 seconds.",
+      "4. Toast the rice: Add rice to the pan with aromatics and mix. Lightly toast the rice, stirring for about 2 minutes until well coated.",
+      "5. Simmer the rice: Add chicken broth, turn up heat, and cover to bring to a boil. Reduce heat to lowest setting and let rice gently simmer covered for about 20 minutes.",
+      "6. Finish rice: Uncover and taste the rice. Add salt as needed or stir in more butter for richness.",
+      "7. Make white sauce: In a bowl, mix together mayonnaise, Greek yogurt, white vinegar, lemon juice, black pepper, oregano, smoked paprika, and salt. Taste and adjust seasoning as desired.",
+      "8. Make red sauce: Add hot sauce ingredients to a blender and process until smooth. Transfer to a pot and simmer over medium-low heat to develop flavors and reduce the sauce. Taste and adjust for salt and vinegar.",
+      "9. Cook chicken: When ready to cook, heat vegetable oil in a pan over medium-high heat. Sear chicken thighs on both sides until internal temperature reaches 165°F.",
+      "10. Finish and serve: Chop chicken into pieces. Serve portions of rice topped with chicken and drizzle with both white and red sauces as desired. Optionally serve with pita bread or fresh vegetables/herbs for garnish.",
+    ],
+    notes: [
+      "Chicken can be marinated for up to 24 hours for maximum flavor, or cooked immediately.",
+      "The white sauce can be made ahead and stored in the refrigerator.",
+      "Red sauce will be spicy - adjust heat level to preference. Also it is literally just tabasco so only do it if you want to.",
+      "Basmati rice works best for authentic texture and flavor.",
+      "This recipe serves 3-4 people generously.",
+    ],
+    nutrition: ["Calories: 520", "Protein: 35g", "Carbs: 48g", "Fat: 24g"],
+  },
 ];
 
 export default recipes;
